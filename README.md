@@ -42,8 +42,8 @@ Devlopers :
 
 Content :
 
--
--
+- https://stock.adobe.com/ ( all background and illustrations)
+- canva.com ( custom logos)
 -
 
 Media : 
