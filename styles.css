@@ -1,5 +1,154 @@
+/*Colours*/
+
+/*#47CC63; Green 
+/*#1A3038; Grey
+
+/*--------------------------------------------*/
+
 * {
 	padding: 0;
 	margin: 0;
 }
+
+/* Font Contents */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Header Contents */
+
+.head {
+  height: 862px;
+  background-image:url("images/background-1.jpeg");
+  background-size: cover;
+  background-position: center;
+ }
+
+.head-container {
+  height: 862px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  height: 62px;
+  width: 100%; /*940px*/
+  padding-top: 52px;
+}
+
+.span1 {
+	color: #1A3038;
+}
+
+.span2 {
+	color: #47CC63;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Nav Bar Contents   */
+
+.nav {
+	display:inline-block;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+  	display: inline-block;
+  	margin-right: 19px;
+}
+
+.nav ul li a {
+  	color: #000000;
+  	font-size: 26px;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Logo */
+
+.logo-v img {
+	align-content: flex-start;
+	height: 150px;
+	width: 150px;
+	
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Main - main-heading   */
+
+.main-heading {
+	height: 748px;
+  	width: 940px;
+}
+
+.main-heading h1 {
+	margin: 0;
+  	padding-top: 242px;
+  	font-family:'Bree Serif', serif;
+  	font-size: 90px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.main-heading p {
+	margin: 30px 0 0 0;
+  	font-family:'Bree Serif', serif;
+  	font-size: 35px;
+  	font-weight: 400;
+  	text-align: center;
+}
+
+.main-heading button {
+	display: block;
+  	margin: 40px auto 176px auto;
+  	padding: 16px 72px;
+  	border: 1px solid #000000;
+  	outline: none;
+  	font-family:'PT Serif', serif;
+  	font-size: 26px;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	background-color: transparent;
+  	cursor: pointer;
+}
+
+.main-heading button:hover {
+	background-color:#47CC63;
+   	transition-delay: 0.3s;
+}
+
+.main-heading a {
+	display: block;
+  	width: 20px;
+  	margin: 0 auto;
+  	padding-bottom: 52px;
+  	color: #000000;
+}
+
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Media Queries   */
+
+@media 
+
+
 
