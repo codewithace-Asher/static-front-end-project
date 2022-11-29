@@ -52,7 +52,7 @@ Media :
 -
 -
 
-Acknowledments :
+Acknowledgements :
 
 -
 -
