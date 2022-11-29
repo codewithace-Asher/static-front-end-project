@@ -1,5 +1,5 @@
 # static-front-end-project
-first website project with L.P.G
+First website project with L.P.G
 
 Hello and Welcome :
 
