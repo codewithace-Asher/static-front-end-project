@@ -33,6 +33,9 @@ Testing :
 
 
 Credit to :
+- Kevin Powel
+- Front-End Simplified
+-
 
 Devlopers :
 
