@@ -27,7 +27,7 @@ a {
 
 .head {
   height: 862px;
-  background-image:url("images/background-1.jpeg");
+  /*background-image:url("images/background-1.jpeg");*/
   background-size: cover;
   background-position: center;
  }
@@ -57,23 +57,76 @@ header {
 
 /* Nav Bar Contents   */
 
-.nav {
-	display:inline-block;
-}
+.nav-bar:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+  
+html {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 
-.nav ul {
-	margin: 0;
-	padding: 0;
-}
+    *, *:before, *:after {box-sizing: inherit;}
 
-.nav ul li {
-  	display: inline-block;
-  	margin-right: 19px;
+nav {
+    width: 64rem;
+  }
+  
+  .main-menu ul {
+    background:transparent;
+    padding: 0;
+    margin: 0;
+    position:flex;
+    left: 10rem;
+    top:10rem;
+	text-align: center;
+	
+  }
+  
+  .main-menu li {
+    position: relative;
+    list-style: none;
+    width: 21rem;
+	display: inline-block;
 }
+  
+  .main-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 25px;
+    color:black;
+	font-weight:200;
+	text-transform:uppercase;
+	font-size:30px;
+	font-family:'Bree Serif', serif;
+  }
+  
+  ul.sub-menu {
+    background:transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: none;
+  }
 
-.nav ul li a {
-  	color: #000000;
-  	font-size: 26px;
+
+  
+  ul.sub-menu li {
+    float:none;
+  }
+  
+  .main-menu li:hover {
+    background:#47CC63;
+  }
+  
+  .main-menu li:hover ul {
+    display: block;
+  }
+  
+  ul.sub-menu li:hover {
+    background:#47CC63;
+  }
+ 
+.head-container img {
+	height: 30px;
+	width: 35px;
 }
 
 /*--------------------------------------------*/
@@ -82,7 +135,7 @@ header {
 /* Logo */
 
 .logo-v img {
-	align-content: flex-start;
+
 	height: 150px;
 	width: 150px;
 	
@@ -122,7 +175,7 @@ header {
   	border: 1px solid #000000;
   	outline: none;
   	font-family:'PT Serif', serif;
-  	font-size: 26px;
+  	font-size: 22px;
   	font-weight: 700;
   	text-transform: uppercase;
   	background-color: transparent;
@@ -141,6 +194,125 @@ header {
   	padding-bottom: 52px;
   	color: #000000;
 }
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/* Services / services-container   */
+
+.services-container {
+  /*height: 650px; 760*/
+  max-width:940px;
+  margin: 0 auto;
+
+}
+
+.h-p-group {
+  width: 100%;
+  margin-bottom: 87px;
+}
+
+.h-p-group h2,
+.h-p-group p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.h-p-group h2 {
+  margin: 0;
+  padding-top: 50px; /*100*/
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.h-p-group p {
+  margin: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+.h-p-group button {
+  display: block;
+  margin: 40px auto 176px auto;
+  padding: 16px 72px;
+  border: 1px solid #000000;
+  outline: none;
+  font-family:'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.h-p-group button:hover {
+  background-color:#47CC63;
+  transition-delay: 0.3s;
+}
+
+.services-block {
+  width: 100%;
+}
+
+.services-block-box {
+ display: inline-block;
+  /*width: 300px;*/
+  width: 32%;
+}
+
+.marg-top {
+  margin-top: 72px;
+}
+
+.services-block-box h3 {
+  display: inline-block;
+  margin: 0 0 15px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.services-block-box .fa {
+  display: block;
+  float: left;
+}
+
+.services-block-box .fa-usd,
+.services-block-box .fa-bullseye {
+  margin-right: 32px;
+}
+
+.services-block-box .fa-area-chart  {
+  margin-right: 28px;
+}
+
+.services-block-box .fa-bar-chart {
+  margin-right: 20px;
+}
+
+.services-block-box .fa-line-chart {
+  margin-right: 24px;
+}
+
+.services-block-box .fa-ils {
+  margin-right: 30px;
+}
+
+.services-block-box p {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #adadad;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+
+
 
 
 /*--------------------------------------------*/
