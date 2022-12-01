@@ -194,7 +194,30 @@ nav {
   	text-transform: uppercase;
   	background-color: transparent;
   	cursor: pointer;
-	z-index: 1000;
+	
+	background-color: #4D4D4D;
+    background-image: 
+    linear-gradient(
+      167deg, 
+      rgba(white, 0.1) 50%, 
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top, 
+      rgba(white, 0.15), 
+      rgba(black, 0));
+	border-radius: 6px;
+	box-shadow:
+    0 0 0 1px #4D4D4D inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+  	color: #FFF;
+	font-family: "Lucida Grande", Arial, sans-serif;
+  	font-size: 22px;
+  	font-weight: bold;
+	height: 61px
+	
 }
 
 .main-heading button:hover {
@@ -259,6 +282,30 @@ nav {
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+	
+  background-color: #4D4D4D;
+  background-image: 
+    linear-gradient(
+      167deg, 
+      rgba(white, 0.1) 50%, 
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top, 
+      rgba(white, 0.15), 
+      rgba(black, 0));
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 1px #4D4D4D inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+   color: #FFF;
+   font-family: "Lucida Grande", Arial, sans-serif;
+   font-size: 22px;
+   font-weight: bold;
+   height: 61px
+		
 }
 
 .h-p-group button:hover {
@@ -372,6 +419,30 @@ nav {
   background-color: transparent;
   cursor: pointer;
   overflow: hidden;
+	
+  background-color: #4D4D4D;
+  background-image: 
+    linear-gradient(
+      167deg, 
+      rgba(white, 0.1) 50%, 
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top, 
+      rgba(white, 0.15), 
+      rgba(black, 0));
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 1px #4D4D4D inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+  color: #FFF;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+   height: 61px
+	
 
 }
 
@@ -429,6 +500,30 @@ nav {
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+	
+  background-color: #4D4D4D;
+  background-image: 
+    linear-gradient(
+      167deg, 
+      rgba(white, 0.1) 50%, 
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top, 
+      rgba(white, 0.15), 
+      rgba(black, 0));
+   border-radius: 6px;
+   box-shadow:
+    0 0 0 1px #4D4D4D inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+   color: #FFF;
+   font-family: "Lucida Grande", Arial, sans-serif;
+   font-size: 22px;
+   font-weight: bold;
+   height: 61px
+	
 	
 }
 
@@ -711,6 +806,30 @@ blockquote {
   text-transform: uppercase;
   background-color:transparent;
   cursor: pointer;
+ 
+  background-color: #4D4D4D;
+  background-image: 
+    linear-gradient(
+      167deg, 
+      rgba(white, 0.1) 50%, 
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top, 
+      rgba(white, 0.15), 
+      rgba(black, 0));
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 1px #4D4D4D inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+  color: #FFF;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  height: 61px
+	
 }
 
 .contact-form input[type=submit]:hover {
