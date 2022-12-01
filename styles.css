@@ -510,7 +510,7 @@ p.fa-usd {
 	  /*height: 800px; 900*/
   width: 940px;
   margin: 0 auto;
-	border: 1px solid blue;
+  border: 1px solid blue;
 }
 
 .team-block {
@@ -723,47 +723,159 @@ blockquote {
 
 /* Footer Contents   */
 
-footer {
-  /*background-color: #010101; */
-	border: 1px solid aqua;
+.footer-main {
+  background-color:#4D4D4D;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 10px;
 }
 
-.footer-container {
-  /*height: 773px;*/
-  width: 940px;
-  margin: 0 auto;
+.footer-main .footer-left,
+.footer-main .footer-center,
+.footer-main .footer-right {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.footer-box {
-  padding-bottom: 40px;
-  margin-bottom: 103px;
+/* Footer left */
+
+.footer-main .footer-left {
+  width: 40%;
+  /*border: 1px solid black;*/
 }
 
-.footer-box h2,
-.footer-box p,
-.footer-box input[type=email],
-.footer-box input[type=submit] {
-  font-family: 'Source Sans Pro', sans-serif;
+.footer-main .footer-left img {
+	height: 150px;
+    width: 150px;
 }
 
-.footer-box h2 {
-  margin: 0;
-  padding-top: 92px;
-  font-size: 32px;
-  font-weight: 700;
+.footer-main .footer-left img:hover {
+	cursor: pointer;
+}
+
+
+.footer-main .footer-company-name {
+  color: #8f9296;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+/* Footer Center */
+
+.footer-main .footer-center {
+  width: 35%;
+  /*border: 1px solid red;*/
+}
+
+.footer-main .footer-center i {
+  background-color: #4D4D4D;
+  color: #ffffff;
+  font-size: 25px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
   text-align: center;
-  color:black;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
 }
 
-.footer-box p {
-  margin: 16px 0 38px 0;
+.footer-main .footer-center .fa {
   font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  color: #898989;
+  line-height: 20px;
+  color:#47CC63;
 }
 
+.footer-main .footer-center .fa:hover {
+	color: aliceblue;
+	transition-delay: 0.3s;
+	cursor: pointer;
+}
 
+.footer-main .footer-center p {
+  display: inline-block;
+  color: #8f9296;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-main .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-main .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-main .footer-right {
+  width: 20%;
+  /*border: 1px solid green;*/
+}
+
+.footer-main .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 20px;
+  font-weight:200;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.footer-main .footer-company-about span {
+  display: block;
+  color:#8f9296;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 92px;
+}
+
+.footer-main .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-main .footer-icons a {
+  display: inline-block;
+  width: 75px;
+  height: 35px;
+  cursor: pointer;
+  background-color:transparent;
+  border-radius: 2px;
+
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-main .footer-icons a:hover {
+	color: #47CC63;
+	transition-delay: 0.3s;
+	
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+	
+
+
+
+
+
+
+
+/* Up Button   */
 
 
 /*--------------------------------------------*/
