@@ -1,5 +1,5 @@
 # static-front-end-project
-First website project with L.P.G
+# H1 First website project with Code+ (Learning People Global)
 
 Hello and Welcome :
 
