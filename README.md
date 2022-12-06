@@ -1,5 +1,5 @@
 # static-front-end-project
-# H1 First website project with Code+ (Learning People Global)
+<h1> First website project with Code+ (Learning People Global) </h1>
 
 Hello and Welcome :
 
