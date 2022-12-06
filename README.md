@@ -61,5 +61,5 @@ This project is completely responsive on both a desktop and mobile.
 -
 -
 
-<--------------------------->
-<--------------------------->
+---
+---
