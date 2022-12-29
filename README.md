@@ -11,8 +11,8 @@
 
 <h2 align="center">UDX :</h2>
 
-<p align="center">This project is completely responsive on both a desktop and mobile.
-
+<p align="center">This project is completely responsive on both a desktop and mobile.</p>
+<p align="center">
 - Informative
 - Focus on Ease of Use
 - Functionality
