@@ -13,61 +13,44 @@
 
 <p align="center">This project is completely responsive on both a desktop and mobile.</p>
 <p align="center">
-- Informative
-- Focus on Ease of Use
-- Functionality
+- Informative<br>
+- Focus on Ease of Use<br>
+- Functionality<br>
 
 </p>
 
 <h2 align="center">Features :</h2>
-
-
-
-
-
+<br>
+<br>
+<br>
 <h2 align="center">Tech Used :</h2>
-
-
-
-
-
+<br>
+<br>
+<br>
 <h2 align="center">Testing :</h2>
-
-
-
-
-
+<br>
+<br>
+<br>
 <h2 align="center">Credit to :</h2>
 <p align="center">
-- Kevin Powel
-- Front-End Simplified
--
-	
+- Kevin Powel<br>
+- Front-End Simplified	
 </p> 
 <h2 align="center">Devlopers :</h2>
-
--
--
--
-
+<br>
+<br>
+<br>
 <h2 align="center">Content :</h2>
 <p align="center">
-- https://stock.adobe.com/ ( all background and illustrations)
+- https://stock.adobe.com/ ( all background and illustrations)<br>
 - canva.com ( custom logos)
 -
 <p/>
-<h2 align="center">Media : </h2>
-
--
--
--
 
 <h2 align="center">Acknowledgements :</h2>
-
--
--
--
-
+<br>
+<br>
+<br>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://codepen.io/_AC3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/_ac3" height="30" width="40" /></a>
