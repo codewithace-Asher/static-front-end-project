@@ -1,5 +1,5 @@
-# static-front-end-project
-<h1> First website project with Code+ (Learning People Global) </h1>
+# Static Front End Project : 
+<h1> First website project with Code+<br> (Learning People Global) </h1>
 
 <h2>Hello and Welcome :</h2>
 
