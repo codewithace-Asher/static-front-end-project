@@ -5,7 +5,7 @@
 
 This project is a responsive website that incorporates all of the skills learned so far in the course, as well as inspiration from a variety of developers I've met along the way on my coding journey. This website will showcase the skills and knowledge I've acquired while trading and working as an education consultant. It allows users to communicate easily, is visually appealing, and is simple to use.<br>
 
-![screenshot]()<br>
+![screenshot](https://github.com/codewithace-Asher/static-front-end-project/blob/71de46f0260eb19017c5a9f31091d3f2cd40ef92/vs-screenshot.jpg)<br>
 
 <h2>UDX :</h2>
 
