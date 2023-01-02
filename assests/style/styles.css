@@ -88,37 +88,41 @@ button:hover {
 /* Main - main-heading Contents  */
 
 .main-heading {
-	display: grid;
-	border: 1px solid red;
+	height: 700px;
+	background-image: url("../images/background-1.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 40px;
+}
+
+.main-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .main-heading h1 {
-	margin: 80px;
   	font-family: 'Bebas Neue', cursive;
   	font-size: 120px;
   	font-weight: bolder;
-  	text-align: center;
 	letter-spacing: 5px;
 }
 
 .main-heading p {
-	margin: 20px 0px ;
+
   	font-family: 'Oswald', sans-serif;
   	font-size: 35px;
   	font-weight: bold;
   	text-align: center;
 }
 
-#reg-btn1 {
-	text-align: center;
-	margin: auto;
-}
-
 .main-heading button {
+	margin-top: 80px;
 	height: 60px;
 	width: 200px;
-	border-radius: 5px;
-	margin: 0 20px;
+	border-radius: 50px;
 	font-size: 17px;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -135,14 +139,6 @@ button:hover {
 	color: black;
 	transition-delay: 0.5s;
 	transform: scale(1.2);
-}
-
-.main-heading a {
-	display: block;
-  	width: 20px;
-  	margin: 0 auto;
-  	padding-bottom: 52px;
-  	color: #000000;
 }
 
 .span1 {
