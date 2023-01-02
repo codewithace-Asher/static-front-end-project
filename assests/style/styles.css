@@ -25,6 +25,7 @@ header {
 	padding: 30px 10%;
 	background-color: black;
 	border-bottom: 3px solid #7ED957;
+	margin: 40px;
 }
 
 #header-logo {
@@ -155,12 +156,47 @@ button:hover {
 
 .services-container {
   /*height: 650px; 760*/
-  max-width:940px;
-  margin: 0 auto;
-
+  height: 1200px;
+  margin: 40px;
+  background-color: antiquewhite;
 }
 
-.h-p-group {
+.sc-group {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sc-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+}
+
+.sc-group p {
+	font-size: 20px;
+	width: 400px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+
+.services-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  }
+
+.services-block {
+	flex-basis:200px;
+}
+
+/*.h-p-group {
   width: 100%;
   margin-bottom: 87px;
 }
@@ -174,7 +210,7 @@ button:hover {
 .h-p-group h2 {
   margin: 0;
   padding-top: 50px; /*100*/
-  font-weight: 700;
+/*  font-weight: 700;
   font-size: 32px;
 }
 
@@ -235,7 +271,7 @@ button:hover {
 .services-block-box {
  display: inline-block;
   /*width: 300px;*/
-  width: 32%;
+/*  width: 32%;
 }
 
 .marg-top {
@@ -290,9 +326,9 @@ button:hover {
 
 /* Pricing & Course Contents */
 
-.pricing-container {
+/*.pricing-container {
   /*height: 750px; 850*/
-  width: 940px;
+/*  width: 940px;
   margin: 0 auto;
   
 }
@@ -501,9 +537,9 @@ p.fa-usd {
 
 /* Data container / masterclass contents   */
 
-.data-container-mc {
+/*.data-container-mc {
   /*height: 800px; 900*/
-  width: 940px;
+ /* width: 940px;
   margin: 0 auto;
   /*border: 1px solid purple;*/
 }
@@ -516,14 +552,14 @@ p.fa-usd {
 
 /* Data container / Team / Mentors   */
 
-.team-block-container {
+/*.team-block-container {
 	  /*height: 800px; 900*/
-  width: 940px;
+/*  width: 940px;
   margin: 0 auto;
   /*border: 1px solid blue;*/
 }
 
-.team-block {
+/*.team-block {
   display:inline;
   width: 24%;
   margin-bottom: 80px;
@@ -605,9 +641,9 @@ p.fa-usd {
 
 /* VTS Why? */
 
-.data-container {
+/*.data-container {
   /*height: 800px; 900*/
-  width: 940px;
+/*  width: 940px;
   margin: 0 auto;
   /*border: 1px solid black;*/
 }
@@ -615,11 +651,11 @@ p.fa-usd {
 
 /* Quote Section*/
 
-.customer-quote {
+/*.customer-quote {
   position: relative;
   height: 180px;
   /*width: 624px;*/
-  width: 60%;
+/*  width: 60%;
   margin: 25px auto 0 auto;
 
 }
@@ -655,15 +691,15 @@ blockquote {
 /*--------------------------------------------*/
 
 /* Feedback container / Contact form   */
-
+/*
 .feedback-container {
   /*height: 950px; 990*/
-  width: 940px;
+ /* width: 940px;
   margin: 0 auto;
   /*border: 1px solid orange;*/
 }
 
-.contact-form {
+/*.contact-form {
   padding-bottom: 50px;
   width: 100%;
 }
@@ -680,7 +716,7 @@ blockquote {
 
 .textarea-positioning {
   /*width: 456px;*/
-  width: 50%;
+/*  width: 50%;
   margin: 0 auto;
 }
 
@@ -693,7 +729,7 @@ blockquote {
 .textarea-positioning textarea {
   height: 179px;
   /*width: 456px;*/
-  width: 100%;
+ /* width: 100%;
   padding-top: 20px;
   padding-left: 20px;
   resize: none;
@@ -704,7 +740,7 @@ blockquote {
 .contact-form input[type=text] {
   height: 51px;
   /*width: 456px;*/
-  width: 50%;
+ /* width: 50%;
   margin: 0 auto 24px auto;
   padding-left: 20px;
   box-sizing: border-box;
@@ -713,7 +749,7 @@ blockquote {
 .contact-form input[type=submit] {
   height: 53px;
   /*width: 170px;*/
-  width: 20%;
+ /* width: 20%;
   margin: 26px auto 0 auto;
   border:1px solid black;
   font-weight: 700;
@@ -757,7 +793,7 @@ blockquote {
 
 /* Footer Contents   */
 
-.footer-main {
+/*.footer-main {
   background-color:#4D4D4D;
   box-sizing: border-box;
   width: 100%;
@@ -776,12 +812,12 @@ blockquote {
 
 /* Footer left */
 
-.footer-main .footer-left {
+/*.footer-main .footer-left {
   width: 40%;
   /*border: 1px solid black;*/
 }
 
-.footer-main .footer-left img {
+/*.footer-main .footer-left img {
 	height: 150px;
     width: 150px;
 }
@@ -800,12 +836,12 @@ blockquote {
 
 /* Footer Center */
 
-.footer-main .footer-center {
+/*.footer-main .footer-center {
   width: 35%;
   /*border: 1px solid red;*/
 }
 
-.footer-main .footer-center i {
+/*.footer-main .footer-center i {
   background-color: #4D4D4D;
   color: #ffffff;
   font-size: 25px;
@@ -851,12 +887,12 @@ blockquote {
 
 /* Footer Right */
 
-.footer-main .footer-right {
+/*.footer-main .footer-right {
   width: 20%;
   /*border: 1px solid green;*/
 }
 
-.footer-main .footer-company-about {
+/*.footer-main .footer-company-about {
   line-height: 20px;
   color: #92999f;
   font-size: 20px;
