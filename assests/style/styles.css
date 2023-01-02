@@ -1,15 +1,8 @@
-*, *::before, *::after {
-	box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); 
 
 * {
 	padding: 0;
 	margin: 0;
-	font: inherit;
-}
-
-body {
-	min-height: 100vh;;
 }
 
 html {
@@ -18,11 +11,7 @@ html {
 	/* background-image: url("images/background-1.jpeg"); */
 }
 
-/* Font Contents */
 
-ul {
-  list-style-type: none;
-}
 
 a {
   text-decoration: none;
@@ -33,25 +22,74 @@ a {
 
 /* Header Contents */
 
-.head {
-  height: 862px;
-  /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-  url("../static-front-end-project/images/background-1.jpeg"); */
-  background-size: cover;
-  background-position: center;
-  position: relative;
- }
-
 .head-container {
-  height: 862px;
-  width: 940px;
-  margin: 0 auto;
+	background-color: black;
+	border-bottom: 3px solid #7ED957;
 }
 
-header {
-  height: 62px;
-  width: 100%; /*940px*/
-  padding-top: 52px;
+.head-nav {
+	padding: 10px; 
+}
+
+.nav-contents {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis:100%;
+	align-items:center;
+}
+
+.nav-contents img {
+	height: 120px;
+	
+}
+
+.nav-contents img:hover {
+	cursor: pointer;
+}
+
+.nav-contents ul {
+	margin: 0px 180px;
+}
+
+.nav-contents a {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	margin: 0px 20px ;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	align-items: flex-end;
+	letter-spacing: 4px;
+}
+
+.nav-contents a:hover {
+	color: #7ED957;
+	transition-delay: 0.5s;
+	cursor: pointer;
+}
+
+.nav-contents button {
+	height: 50px;
+	width: 200px;
+	border-radius: 5px;
+	margin: 0 20px;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+}
+
+.nav-contents button:hover {
+	cursor: pointer;
+	background-color:lawngreen;
+	color: black;
+	transition-delay: 0.5s;
+	transform: scale(1.2);
 }
 
 .span1 {
@@ -60,96 +98,12 @@ header {
 
 .span2 {
 	color: #47CC63;
-}
+}	
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* Nav Bar Contents   */
 
-.nav-bar:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
-  
-html {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
-
-    *, *:before, *:after {box-sizing: inherit;}
-
-nav {
-    width: 64rem;
-  }
-  
-  .main-menu ul {
-    background:transparent;
-    padding: 0;
-    margin: 0;
-    position:flex;
-    left: 10rem;
-    top:10rem;
-	text-align: center;
-	z-index: 10;
-	
-  }
-  
-  .main-menu li {
-    position: relative;
-    list-style: none;
-    width: 21rem;
-	display: inline-block;
-}
-  
-  .main-menu li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 25px 25px;
-    color:black;
-	font-weight:200;
-	text-transform:uppercase;
-	font-size:25px;
-	font-family:'Bree Serif', serif;
-  }
-  
-  ul.sub-menu {
-    background:transparent;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 0;
-    display: none;
-  }
-  
-  ul.sub-menu li {
-    float:none;
-  }
-  
-  .main-menu li:hover {
-    background:#47CC63;
-  }
-  
-  .main-menu li:hover ul {
-    display: block;
-  }
-  
-  ul.sub-menu li:hover {
-    background:#47CC63;
-  }
- 
-.head-container img {
-	height: 30px;
-	width: 35px;
-}
-
-/*--------------------------------------------*/
-/*--------------------------------------------*/
-
-/* Logo Contents */
-
-/*.logo-v img {
-	width: 150px;
-	height: 150px; */
-}
-
-/*--------------------------------------------*/
-/*--------------------------------------------*/
 
 /* Main - main-heading Contents  */
 
