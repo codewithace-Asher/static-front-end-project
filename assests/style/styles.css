@@ -19,6 +19,7 @@ html {
 /* Section - Header Contents */
 
 header {
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -98,6 +99,7 @@ button:hover {
 }
 
 .main-heading {
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -156,12 +158,12 @@ button:hover {
 
 .services-container {
   /*height: 650px; 760*/
-  height: 1200px;
+  height: 1500px;
   margin: 40px;
-  background-color: antiquewhite;
 }
 
 .sc-group {
+  flex-wrap: wrap;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -187,29 +189,41 @@ button:hover {
 
 
 .services-block {
-  display: flex;
-  justify-content: space-between;
-  flex-direction:column;
+	flex-wrap: wrap;
+  	display: flex;
+  	justify-content:center;
+  	flex-direction: row;
+  	margin: 50px 50px; 
+  	column-gap: 55px;
+  	border: 1px solid red;
   }
 
-.services-block {
-	flex-basis:200px;
+.services-block h3 {
+	font-size: 32px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-/*.h-p-group {
-  width: 100%;
-  margin-bottom: 87px;
+.services-block p {
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 22px;
+	text-align: center;
 }
 
-.h-p-group h2,
-.h-p-group p {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
+.price-action,
+.fibs,
+.supply-demand,
+.market-structure,
+.candles,
+.indicators {
+	padding: 10px 50px 10px;
+	width: 300px;
+	height: 400px;
+	border: 1px solid black;
 }
 
-.h-p-group h2 {
-  margin: 0;
-  padding-top: 50px; /*100*/
 /*  font-weight: 700;
   font-size: 32px;
 }
