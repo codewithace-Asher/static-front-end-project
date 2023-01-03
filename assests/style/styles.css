@@ -774,6 +774,86 @@ button:hover {
 
 /* Feedback container / Contact form   */
 
+.feedback-container {
+	/*border: 1px solid red;*/
+	margin: 40px;
+	height: 800px;
+}
+
+.f-b-group {
+	margin: 40px;
+	display: grid;
+	align-items: center;
+}
+
+.f-b-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	text-align: center;
+}
+form {
+	background-color: black;
+	background: linear-gradient(black, #47CC63, #91E5B4,black);
+	margin: 40px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.contact-form {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-form img {
+	height: 100px;
+	color: black;
+}
+
+.contact-form form {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 50px;
+	height: 700px;
+}
+
+.contact-form input {
+	margin: 20px auto;
+	width: 600px;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.contact-form textarea {
+	margin: 20px auto;
+	width: 600px;
+	height: 300px;
+	text-align:center;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.submit-button {
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+}
+
+.submit-button:hover {
+	cursor: pointer ;
+	background-color: #7ED957;
+	color: black;
+	transition-delay: 0.5s;
+}
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
