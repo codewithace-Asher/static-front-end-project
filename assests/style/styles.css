@@ -323,12 +323,14 @@ button:hover {
 /* Services / Pricing */
 
 #services {
-	margin-top: 35rem;
+	margin-top: 40rem;
 }
 
 .pricing-container {
 	/*height: 750px; 850*/
 	margin-top: 10rem;
+	display: flex;
+	flex-wrap: wrap;
   	/*border: 1px solid red;*/
   }
 
@@ -371,6 +373,7 @@ button:hover {
 	margin: 50px;
 	width: 500px;
 	height: 700px;
+	flex-wrap: wrap;
 	/*border: 1px solid purple;*/
 }
 
@@ -497,18 +500,207 @@ button:hover {
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* Data container / masterclass contents   */
-
-/*.data-container-mc {
-  /*height: 800px; 900*/
- /* width: 940px;
-  margin: 0 auto;
-  /*border: 1px solid purple;*/
+#masterclass {
+	margin-top: 10rem;
 }
 
+.mch1-group {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/*border: 1px solid black;*/
+	margin: 40px;
+}
 
+.mch1-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+}
 
+.mch1-group p {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
 
+.data-container-mc {
+	/*border: 1px solid black;*/
+	margin: 40px;
+	flex-wrap: wrap;
+}
+
+.data-container-mc {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.h-p-group {
+	padding: 10px 50px 20px;
+	margin: 40px;
+	width: 500px;
+	height: 300px;
+	/*border: 1px solid purple;*/
+}
+
+.h-p-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	border-bottom: 3px double #9FE4A5;
+	text-align: center;
+}
+
+.h-p-group p {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+.h-p-image {
+	/*border: 1px solid blue;*/
+	margin: 40px;
+	display: flex;
+	justify-content:center;
+	width: 300px;
+	height: 300px;
+	padding: 10px 50px 20px;
+}
+
+.team-block-container {
+	/*border: 1px solid red;*/
+	margin: 40px;
+}
+
+.team-block-contents {
+	/*border: 1px solid purple;*/
+	margin: 40px;
+}
+
+.t-b-group {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	/*border: 1px solid green;*/
+}
+
+.t-b-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	border-bottom: 3px double #9FE4A5;
+	text-align: center;
+}
+
+.t-b-group p {
+	width: 500px;
+	margin: 20px;
+	padding: 20px;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+.team-mentors {
+	/*border: 1px solid purple;*/
+	margin: 40px;
+	display: flex ;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.team-block {
+	/*border: 1px solid green;*/
+	margin: 20px;
+}
+
+.team-block img {
+	align-content: center;
+}
+
+.team-block h4 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	text-align: center;
+}
+
+.team-block h5 {
+	ont-weight: bold;
+	font-size: 20px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	text-align: center;
+}
+
+.team-block li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 70px;
+}
+
+.team-block li a {
+	align-content: center;
+}
+
+.fa-facebook {
+	color: white;
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+	border-radius: 10px;
+	padding: 20px 25px 20px;
+}
+
+.fa-facebook:hover {
+	color: #0200FD;
+	cursor: pointer;
+	background-color: #25DBF9;
+	border: 1px solid #25DBF9;
+	animation-delay: 0.5s;
+	transform: scale(1.2);
+}
+
+.fa-twitter {
+	color: white;
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+	border-radius: 10px;
+	padding: 20px 20px 20px;
+}
+
+.fa-twitter:hover {
+	color: #0200FD;
+	cursor: pointer;
+	background-color: #25DBF9;
+	border: 1px solid #25DBF9;
+	animation-delay: 0.5s;
+	transform: scale(1.2);
+}
+
+.fa-linkedin {
+	color: white;
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+	border-radius: 10px;
+	padding: 20px 20px 20px;
+}
+
+.fa-linkedin:hover {
+	color: #0200FD;
+	cursor: pointer;
+	background-color: #25DBF9;
+	border: 1px solid #25DBF9;
+	animation-delay: 0.5s;
+	transform: scale(1.2);
+}
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
