@@ -329,7 +329,6 @@ button:hover {
 .pricing-container {
 	/*height: 750px; 850*/
 	margin-top: 10rem;
-	display: flex;
 	flex-wrap: wrap;
   	/*border: 1px solid red;*/
   }
@@ -701,246 +700,80 @@ button:hover {
 	animation-delay: 0.5s;
 	transform: scale(1.2);
 }
+
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* Data container / Team / Mentors   */
+/* Data container / Why */
 
-/*.team-block-container {
-	  /*height: 800px; 900*/
-/*  width: 940px;
-  margin: 0 auto;
-  /*border: 1px solid blue;*/
-}
-
-/*.team-block {
-  display:inline;
-  width: 24%;
-  margin-bottom: 80px;
-}
-
-.team-block img {
-  display: block;
-  margin: 0 auto;
-}
-
-.team-block h4,
-.team-block h5,
-.team-block p {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-}
-
-.team-block h5,
-.team-block p {
-  font-weight: 400;
-}
-
-.team-block h4 {
-  font-size: 28px;
-  font-weight: 400;
-  margin: 40px 0 10px 0;
-  
-}
-
-.team-block h5 {
-  margin: 0;
-  margin: 0 0 15px 0;
-  font-size: 18px;
-  color: #00aced;
-}
-
-.team-block p {
-  margin: 0 0 12px 0;
-  font-size: 14px;
-  color: black;
-}
-
-.team-block ul {
-  display: block;
-  padding: 0;
-  text-align: center;
-}
-
-.team-block ul li {
-  display: inline-block;
-}
-
-.team-block a {
-  margin-right: 12px;
-  color: #000000;
-}
-
-.team-block .fa-facebook:hover {
-  color: #3b5998;
-}
-
-.team-block .fa-twitter:hover {
-  color: #00aced;
-}
-
-.fa-linkedin:hover {
-  color: #007bb6;
-}
-
-.mentor-1 {
-	height: 200px;
-	width: 200px;
-}
 
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-
-/* VTS Why? */
-
-/*.data-container {
-  /*height: 800px; 900*/
-/*  width: 940px;
-  margin: 0 auto;
-  /*border: 1px solid black;*/
+.data-container {
+	margin: 40px;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
-
-/* Quote Section*/
-
-/*.customer-quote {
-  position: relative;
-  height: 180px;
-  /*width: 624px;*/
-/*  width: 60%;
-  margin: 25px auto 0 auto;
-
+.d-c-group {
+	margin: 40px;
+	/*border: 1px solid blue;*/
+	display: flex; 
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
 }
 
-.fa-quote-left,
-.fa-quote-right {
-  color:black;
+.d-c-group h2 {
+	font-weight: bold;
+	font-size: 35px;
+  	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 3px double #9FE4A5;
+}
+	
+.d-c-group p {
+	width: 500px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 40px;
+	padding: 10px;
 }
 
-.fa-quote-right {
-  position: absolute;
-  bottom: 60%;
-  left: 95%;
-  color:black;
+.d-c-group2 {
+	margin: 40px;
+	/*border: 1px solid red;*/
+	display: flex; 
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
 }
 
-.fa-quote-left {
-  position: absolute;
-  top: 10%;
+.customer-quote {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 40px;
+	padding: 30px;
+	/*border: 1px solid red;*/
 }
 
-blockquote {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #adadad;
-  text-align: center;
-  color: #00aced;
+.customer-quote span {
+	color: black;
+	font-size: 60px;
 }
-
-
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
 /* Feedback container / Contact form   */
-/*
-.feedback-container {
-  /*height: 950px; 990*/
- /* width: 940px;
-  margin: 0 auto;
-  /*border: 1px solid orange;*/
-}
 
-/*.contact-form {
-  padding-bottom: 50px;
-  width: 100%;
-}
-
-.contact-form form {
-  margin: 0 auto;
-}
-
-.contact-form input,
-.textarea-positioning textarea {
-  display: block;
-  outline: none;
-}
-
-.textarea-positioning {
-  /*width: 456px;*/
-/*  width: 50%;
-  margin: 0 auto;
-}
-
-.contact-form input[type=text],
-.contact-form input[type=email], 
-.textarea-positioning textarea {
-  border: 1px solid #000000;
-}
-
-.textarea-positioning textarea {
-  height: 179px;
-  /*width: 456px;*/
- /* width: 100%;
-  padding-top: 20px;
-  padding-left: 20px;
-  resize: none;
-  box-sizing: border-box;
-}
-
-.contact-form input[type=email],
-.contact-form input[type=text] {
-  height: 51px;
-  /*width: 456px;*/
- /* width: 50%;
-  margin: 0 auto 24px auto;
-  padding-left: 20px;
-  box-sizing: border-box;
-}
-
-.contact-form input[type=submit] {
-  height: 53px;
-  /*width: 170px;*/
- /* width: 20%;
-  margin: 26px auto 0 auto;
-  border:1px solid black;
-  font-weight: 700;
-  color:black;
-  text-transform: uppercase;
-  background-color:transparent;
-  cursor: pointer;
- 
-  background-color: #4D4D4D;
-  background-image: 
-    linear-gradient(
-      167deg, 
-      rgba(white, 0.1) 50%, 
-      rgba(black, 0) 55%),
-    linear-gradient(
-      top, 
-      rgba(white, 0.15), 
-      rgba(black, 0));
-  border-radius: 6px;
-  box-shadow:
-    0 0 0 1px #4D4D4D inset,
-    0 0 0 2px rgba(white, 0.15) inset,
-    0 8px 0 0 #AD3002,
-    0 8px 0 1px rgba(black, 0.4),
-    0 8px 8px 1px rgba(black, 0.5);
-  color: #FFF;
-  font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  height: 61px
-	
-}
-
-.contact-form input[type=submit]:hover {
-  background-color:#47CC63;
-  transition-delay: 0.3s;
-}
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
