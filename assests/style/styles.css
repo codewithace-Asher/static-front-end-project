@@ -793,6 +793,7 @@ button:hover {
   	text-transform: uppercase;
 	text-align: center;
 }
+
 form {
 	background-color: black;
 	background: linear-gradient(black, #47CC63, #91E5B4,black);
