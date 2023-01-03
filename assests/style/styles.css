@@ -169,6 +169,7 @@ button:hover {
   /*height: 650px; 760*/
   height: 2000px;
   margin: 40px;
+  /*border: 1px solid black;*/
 }
 
 .sc-group {
@@ -204,6 +205,7 @@ button:hover {
   	flex-direction: row;
   	margin: 50px 50px; 
   	column-gap: 55px;
+	/*border: 1px solid red;*/
   }
 
 .services-block h3 {
@@ -227,9 +229,10 @@ button:hover {
 .market-structure,
 .candles,
 .indicators {
-	padding: 10px 50px 10px;
-	width: 300px;
-	height: 450px;
+	padding: 40px;
+	margin: 40px;
+	width: 400px;
+	height: 600px;
 	border-radius: 10px;
 	color: whitesmoke;
 	box-shadow: 0px 0px 20px black;
@@ -318,6 +321,10 @@ button:hover {
 /*--------------------------------------------*/
 
 /* Services / Pricing */
+
+#services {
+	margin-top: 35rem;
+}
 
 .pricing-container {
 	/*height: 750px; 850*/
@@ -486,205 +493,6 @@ button:hover {
 	height: 50px;
 }
 
-/*
-.price-block {
-  display: inline-block;
-  width: 32%;
-  margin-bottom: 70px;
- 
-}
-
-.price-block h3 {
-  margin: 25px 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.price-block p:nth-child(3) {
-  margin: 0 0 30px 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #adadad;
-  text-align: center;
-}
-
-.price-block button {
-  display: block;
-  height: 47px;
-  width: 141px;
-  margin: 30px auto 0 auto;
-  border: 1px solid #000000;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: transparent;
-  cursor: pointer;
-  overflow: hidden;
-	
-  background-color: #4D4D4D;
-  background-image: 
-    linear-gradient(
-      167deg, 
-      rgba(white, 0.1) 50%, 
-      rgba(black, 0) 55%),
-    linear-gradient(
-      top, 
-      rgba(white, 0.15), 
-      rgba(black, 0));
-  border-radius: 6px;
-  box-shadow:
-    0 0 0 1px #4D4D4D inset,
-    0 0 0 2px rgba(white, 0.15) inset,
-    0 8px 0 0 #AD3002,
-    0 8px 0 1px rgba(black, 0.4),
-    0 8px 8px 1px rgba(black, 0.5);
-  color: #FFF;
-  font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-   height: 61px
-	
-
-}
-
-.price-block button:hover {
-  background-color:#47CC63;
-  transition-delay: 0.3s;
-}
-
-.m-class-logo {
-	width: 150px;
-	height: 150px;
-	border: 1px solid black;
-	
-}
-
-.m-class-logo1 {
-	width: 75px;
-	height: 75px;
-	
-}
-
- .m-set-logo {
-	width: 150px;
-	height: 150px;
-	border: 1px solid black;
-	
-}
-
-.m-set-logo1 {
-	width: 75px;
-	height: 75px;
-	
-}
-
-.c-mster-logo1 {
-	width: 140px;
-	height: 140px;
-	border: 1px solid black;
-}
-
-.c-mster-logo2 {
-	width: 75px;
-	height: 75px;
-}
-
-.candle-download button {
-  display: block;
-  margin: 40px auto 176px auto;
-  padding: 16px 72px;
-  border: 1px solid black;
-  outline: none;
-  font-family:'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: transparent;
-  cursor: pointer;
-	
-  background-color: #4D4D4D;
-  background-image: 
-    linear-gradient(
-      167deg, 
-      rgba(white, 0.1) 50%, 
-      rgba(black, 0) 55%),
-    linear-gradient(
-      top, 
-      rgba(white, 0.15), 
-      rgba(black, 0));
-   border-radius: 6px;
-   box-shadow:
-    0 0 0 1px #4D4D4D inset,
-    0 0 0 2px rgba(white, 0.15) inset,
-    0 8px 0 0 #AD3002,
-    0 8px 0 1px rgba(black, 0.4),
-    0 8px 8px 1px rgba(black, 0.5);
-   color: #FFF;
-   font-family: "Lucida Grande", Arial, sans-serif;
-   font-size: 22px;
-   font-weight: bold;
-   height: 61px
-	
-	
-}
-
-.candle-download button:hover {
- 	background-color:#47CC63;
-    transition-delay: 0.3s;
-}
-
-.price-block img {
-  display: block;
-  margin: 10px auto;
-}
-
-.left-block p:nth-child(4) {
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.center-block p:nth-child(4),
-.right-block p:nth-child(4) {
-  margin: 0 auto;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.left-block p:nth-child(6) {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #adadad;
-  text-align: center;
-}
-
-.center-block p:nth-child(6),
-.right-block p:nth-child(6) {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #adadad;
-  text-align: center;
-}
-
-p.fa-usd {
-  margin-left: 55px;
-}
-
-p.fa-usd {
-  margin-left: 45px;
-}
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
