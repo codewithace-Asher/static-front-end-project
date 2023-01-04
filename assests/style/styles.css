@@ -234,86 +234,108 @@ button:hover {
 	width: 400px;
 	height: 600px;
 	border-radius: 10px;
-	color: whitesmoke;
+	color: black;
 	box-shadow: 0px 0px 20px black;
+	
 }
 
 .fibs {
-	background-image: url("../images/fibs-bg.jpeg");
+	/*background-image: url("../images/fibs-bg.jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-left: 4px double black;
+	z-index: 9;
+	width: 1000px;
 }
 
 .fibs:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 .price-action {
-	background-image: url("../images/price-bg (1).jpeg");
+	/*background-image: url("../images/price-bg (1).jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-right: 4px double #7ED957;
 }
 
 .price-action:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 .supply-demand {
-	background-image: url("../images/price-bg (2).jpeg");
+	/*background-image: url("../images/price-bg (2).jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-left: 4px double black;
+	width: 1000px;
+}
+
+.supply-demand img {
+	width: 750px;
+	height: 450px;
 }
 
 .supply-demand:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 .market-structure {
-	background-image: url("../images/price-bg (3).jpeg");
+	/*background-image: url("../images/price-bg (3).jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-right: 4px double #7ED957;
 }
 
 .market-structure:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 .candles {
-	background-image: url("../images/price-bg (4).jpeg");
+	/*background-image: url("../images/price-bg (4).jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-right: 4px double #7ED957;
 }
 
 .candles:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 .indicators {
-	background-image: url("../images/price-bg (5).jpeg");
+	/*background-image: url("../images/price-bg (5).jpeg");
 	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	border-left: 4px double black;
+	width: 1000px;
 }
 
 .indicators:hover {
 	transition-delay: 0.7s;
-	transform: scale(1.5);
+	transform: scale(1.1);
 	cursor: pointer;
+	z-index: 9;
 }
 
 
@@ -377,7 +399,7 @@ button:hover {
 }
 
 .trading-mc {
-	background-color: #E7E7E7;
+	background-color: white;
 	background-image: url("../images/mindset.png");
 	background-size:cover;
 	background-position:center;
@@ -411,7 +433,7 @@ button:hover {
 }
 
 .mindset-mc {
-	background-color: #E7E7E7;
+	background-color: white;
 	background-image: url("../images/mastery.png");
 	background-size:cover;
 	background-position:center;
@@ -445,8 +467,8 @@ button:hover {
 }
 
 .candle-mc {
-	background-color: #E7E7E7;
-	background-image: url("../images/candle.png");
+	background-color: white;
+	background-image: url("../images/candle-1.png");
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -752,6 +774,7 @@ button:hover {
 	text-align: center;
 	margin: 40px;
 	padding: 10px;
+	border-bottom: 3px double #9FE4A5;
 }
 
 .d-c-group2 {
@@ -800,6 +823,7 @@ button:hover {
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	text-align: center;
+	justify-content: center;
 }
 
 form {
@@ -870,7 +894,7 @@ form {
 /* Footer Contents   */
 
 footer {
-	background-color: white;
+	background-color: black;
 	height: 200px;
 	display: flex;
 	justify-content: space-between;
@@ -886,7 +910,7 @@ footer {
 }
 
 .footer-cnts h3 {
-	color: black;
+	color: white;
 	padding: 40px;
 	margin: 40px;
 	font-weight: bold;
@@ -907,7 +931,7 @@ footer {
 }
 
 .footer-links h6 {
-	color: black;
+	color: white;
 	font-size: 25px;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
@@ -924,7 +948,6 @@ footer {
 .footer-logo {
 	padding: 10px;
 	margin: 40px;
-	height: 120px;
 	/*border: 1px solid red;*/
 }
 
@@ -936,7 +959,7 @@ footer {
 }
 
 .fa-arrow-up {
-	color: black;
+	color: #7ED957;
 	font-size: 60px;
 	padding: 30px;
 	margin: 40px;
@@ -954,8 +977,8 @@ footer {
 	text-align: center;
 	position: relative;
 	top: 60px;
-	left: 150px;
-	color: black;
+	left: 450px;
+	color: #7ED957;
 	margin: 50px;
 	padding: 40px;
 	width: 1000px;
@@ -963,7 +986,7 @@ footer {
 }
 
 .copyright-link {
-	color: black;
+	color: #7ED957;
 	text-decoration: none;
 }
 
