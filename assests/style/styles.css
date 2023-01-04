@@ -607,7 +607,6 @@ button:hover {
 }
 
 .team-mentors {
-	/*border: 1px solid purple;*/
 	margin: 40px;
 	display: flex ;
 	flex-direction: row;
@@ -616,13 +615,19 @@ button:hover {
 }
 
 .team-block {
-	/*border: 1px solid green;*/
-	margin: 20px;
+	margin: 40px;
+	width: 600px;
 }
 
 .team-block img {
 	align-content: center;
+
 }
+
+.mentor-1 {
+	margin: 0px 180px;
+}
+
 
 .team-block h4 {
 	font-weight: bold;
@@ -885,10 +890,11 @@ footer {
 	padding: 40px;
 	margin: 40px;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 20px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	letter-spacing: 2px;
+	width: 370px;
 }
 
 .footer-links {
