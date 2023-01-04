@@ -117,7 +117,7 @@ button:hover {
 
 .main-heading h1 {
   	font-family: 'UnifrakturMaguntia', cursive;
-  	font-size: 200px;
+  	font-size: 150px;
   	font-weight: bolder;
 	letter-spacing: 5px;
 }
@@ -640,15 +640,18 @@ button:hover {
 	text-align: center;
 }
 
+.team-block ul {
+	display: flex;
+	justify-content: center;
+}
+
 .team-block li {
 	display: inline-block;
 	list-style: none;
-	margin: 10px 70px;
+	margin: 10px;
 }
 
-.team-block li a {
-	align-content: center;
-}
+
 
 .fa-facebook {
 	color: white;
@@ -942,11 +945,15 @@ footer {
 }
 
 .copyright {
+	text-align: center;
 	position: relative;
 	top: 60px;
+	left: 150px;
 	color: black;
 	margin: 50px;
 	padding: 40px;
+	width: 1000px;
+	/*border: 1px solid red;*/
 }
 
 .copyright-link {
