@@ -827,17 +827,22 @@ button:hover {
 }
 
 form {
-	background-color: black;
-	background: linear-gradient(black, #47CC63, #91E5B4,black);
+	background-color: #E2F6DA;
+	/*background: linear-gradient(,black, #7ED957, #7ED957,black);*/
 	margin: 40px;
 	width: 800px;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
+	border-left: 8px solid #7ED957;
+	border-right: 8px solid #7ED957;
+	/*border-top: 4px solid black;
+	border-bottom: 4px solid #7ED957;*/
 }
 .contact-form {
 	display: flex;
 	justify-content: center;
+	
 }
 
 .contact-form img {
