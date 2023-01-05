@@ -188,6 +188,10 @@ button:hover {
   	text-transform: uppercase;
 }
 
+.sc-grouph2 {
+	border-bottom: 4px double #1A3038; 
+}
+
 .sc-group p {
 	font-size: 20px;
 	width: 400px;
@@ -373,6 +377,10 @@ button:hover {
   	text-transform: uppercase;
 }
 
+.pc-sc {
+	border-bottom: 4px double #1A3038;
+}
+
 .pc-group p {
 	font-family: 'Oswald', sans-serif;
   	font-size: 35px;
@@ -542,6 +550,10 @@ button:hover {
   	text-transform: uppercase;
 }
 
+.mch1-grouph2 {
+	border-bottom: 4px double #1A3038;
+}
+
 .mch1-group p {
 	font-size: 20px;
 	font-family: 'Oswald', sans-serif;
@@ -616,8 +628,12 @@ button:hover {
 	font-size: 35px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
-	border-bottom: 3px double #9FE4A5;
+	/*border-bottom: 3px double #9FE4A5;*/
 	text-align: center;
+}
+
+.t-b-grouph2 {
+	border-bottom: 4px double #1A3038;
 }
 
 .t-b-group p {
@@ -659,6 +675,14 @@ button:hover {
   	text-transform: uppercase;
 	text-align: center;
 }
+
+.team-blockh2 {
+	border-bottom: 4px double #1A3038;
+}
+
+/*.fx-5 {
+	border-bottom: 2px solid #1A3038;
+}*/
 
 .team-block h5 {
 	ont-weight: bold;
@@ -737,11 +761,6 @@ button:hover {
 
 /* Data container / Why */
 
-
-
-/*--------------------------------------------*/
-/*--------------------------------------------*/
-
 .data-container {
 	margin: 40px;
 	/*border: 1px solid red;*/
@@ -765,7 +784,7 @@ button:hover {
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 3px double #9FE4A5;
+	border-bottom: 4px double #1A3038;
 }
 	
 .d-c-group p {
