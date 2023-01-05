@@ -12,6 +12,7 @@ html {
 }
 
 body {
+	/*background-color: #1A3038;*/
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -116,7 +117,7 @@ button:hover {
 }
 
 .main-heading h1 {
-  	font-family: 'UnifrakturMaguntia', cursive;
+  	font-family: 'Bebas Neue', cursive;
   	font-size: 150px;
   	font-weight: bolder;
 	letter-spacing: 5px;
@@ -405,7 +406,7 @@ button:hover {
 	background-position:center;
 	background-repeat:no-repeat;
 	border-radius: 10px;
-	box-shadow: 0px 0px 30px black;
+	box-shadow: 0px 30px 60px -5px #000;
 }
 
 .trading-mc:hover {
@@ -439,7 +440,7 @@ button:hover {
 	background-position:center;
 	background-repeat:no-repeat;
 	border-radius: 10px;
-	box-shadow: 0px 0px 30px black;
+	box-shadow: 0px 30px 60px -5px #000;
 }
 
 .mindset-mc:hover {
@@ -473,7 +474,7 @@ button:hover {
 	background-position:center;
 	background-repeat:no-repeat;
 	border-radius: 10px;
-	box-shadow: 0px 0px 30px black;
+	box-shadow: 0px 30px 60px -5px #000;
 }
 
 .candle-mc:hover {
@@ -793,12 +794,19 @@ button:hover {
 	text-align: center;
 	margin: 40px;
 	padding: 30px;
+	/*background: linear-gradient(grey, #979797, #494949,#777777);*/
+	box-shadow: 0px 30px 60px -5px #000;
+	border-radius: 10px;
 	/*border: 1px solid red;*/
 }
 
 .customer-quote span {
 	color: black;
 	font-size: 60px;
+}
+
+.customer-quote p {
+	border-bottom: 4px double #7ED957;
 }
 /*--------------------------------------------*/
 /*--------------------------------------------*/
@@ -827,22 +835,20 @@ button:hover {
 }
 
 form {
-	background-color: #E2F6DA;
-	/*background: linear-gradient(,black, #7ED957, #7ED957,black);*/
+	/*background-color: #50E116;*/
+	
 	margin: 40px;
-	width: 800px;
+	width: 700px;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	border-left: 8px solid #7ED957;
-	border-right: 8px solid #7ED957;
-	/*border-top: 4px solid black;
-	border-bottom: 4px solid #7ED957;*/
+	box-shadow: 0px 30px 60px -5px #000;
+	background: linear-gradient(grey, #979797, #494949,#777777);
 }
 .contact-form {
 	display: flex;
 	justify-content: center;
-	
+	/*background: linear-gradient(grey, #979797, #494949,#777777);*/
 }
 
 .contact-form img {
@@ -855,8 +861,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-radius: 50px;
-	height: 700px;
+	height: 800px;
 }
 
 .contact-form input {
@@ -872,13 +877,25 @@ form {
 	color: white;
 }
 
+input {
+	background-color: #AFAFAF;
+}
+
+.contact-form span {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #434343;
+}
+
 .contact-form textarea {
 	margin: 20px auto;
 	width: 600px;
 	height: 300px;
 	text-align:center;
-	border-radius: 10px;
-	background-color: white;
+	border-radius: 50px;
+	background-color: #AFAFAF;
 }
 
 .submit-button {
@@ -911,6 +928,7 @@ footer {
 }
 
 .footer-cnts {
+	margin-top: 200px;
 	/*border: 1px solid black;*/
 }
 
