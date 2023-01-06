@@ -15,7 +15,6 @@ body {
 	/*background-color: #1A3038;*/
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 }
 
 /*--------------------------------------------*/
@@ -23,9 +22,10 @@ body {
 
 /* Section - Header Contents */
 
-header {
-	flex-wrap: wrap;
+header { 
+	/*min-height: 300px;*/
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: center;
 	padding: 30px 10%;
@@ -37,7 +37,7 @@ header {
 }
 
 #header-logo {
-	height: 150px;
+	height:150px;
 	margin-right: auto;
 }
 
@@ -62,7 +62,7 @@ header {
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: clamp(1.4rem, 2vw, 1.8rem);  
 	color: lightgray;
 }
 
@@ -101,6 +101,9 @@ button:hover {
 
 .main-heading {
 	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	/*background-image: url("../images/background-1.jpeg");
 	background-position: center;
 	background-size: cover;
@@ -118,7 +121,7 @@ button:hover {
 
 .main-heading h1 {
   	font-family: 'Bebas Neue', cursive;
-  	font-size: 150px;
+  	font-size: clamp(120px, 10px + 7vw,  200px); 
   	font-weight: bolder;
 	letter-spacing: 5px;
 }
@@ -167,14 +170,13 @@ button:hover {
 /* Services / services-Contents   */
 
 .services-container {
-  /*height: 650px; 760*/
-  height: 2000px;
-  margin: 40px;
-  /*border: 1px solid black;*/
+  	/*height: 650px; 760*/
+	height: 2000px;
+  	margin: 40px;
+  	/*border: 1px solid black;*/
 }
 
 .sc-group {
-  flex-wrap: wrap;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -935,6 +937,8 @@ input {
 /* Footer Contents   */
 
 footer {
+	max-width: 2300px;
+	min-height: 200px;
 	background-color: black;
 	height: 200px;
 	display: flex;
@@ -1053,8 +1057,30 @@ footer {
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 	
-/*Back to Top*/
+/*Media Queries*/
 
+@media (min-width:2300px > 1500px){
+	header {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	#header-logo {
+		float:inherit; 
+	}
+	
+}
 
-
-
+@media (min-width:2300px > 600px){
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	#header-logo {
+		float:inherit; 
+	}
+}
