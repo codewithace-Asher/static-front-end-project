@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Calistoga&family=Oleo+Script&family=Oswald:wght@300&family=Press+Start+2P&family=Rock+Salt&family=UnifrakturMaguntia&display=swap');
 
 * {
 	padding: 0;
@@ -15,6 +15,7 @@ body {
 	/*background-color: #1A3038;*/
 	display: flex;
 	flex-direction: column;
+	font-family: 'Oswald', sans-serif;
 }
 
 /*--------------------------------------------*/
@@ -120,8 +121,9 @@ button:hover {
 }
 
 .main-heading h1 {
-  	font-family: 'Bebas Neue', cursive;
-  	font-size: clamp(120px, 10px + 7vw,  200px); 
+	align-content: center;
+  	font-family: 'Calistoga', cursive;
+  	font-size: clamp(150px, 50px + 8vw,  180px); 
   	font-weight: bolder;
 	letter-spacing: 5px;
 }
@@ -252,15 +254,13 @@ button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;*/
 	border-left: 4px double black;
-	z-index: 9;
-	width: 1000px;
+	width: 1000px ;
 }
 
 .fibs:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 .price-action {
@@ -275,7 +275,6 @@ button:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 .supply-demand {
@@ -296,7 +295,6 @@ button:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 .market-structure {
@@ -311,7 +309,6 @@ button:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 .candles {
@@ -326,7 +323,6 @@ button:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 .indicators {
@@ -342,7 +338,6 @@ button:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.1);
 	cursor: pointer;
-	z-index: 9;
 }
 
 
@@ -352,12 +347,15 @@ button:hover {
 /* Services / Pricing */
 
 #services {
-	margin-top: 40rem;
+	/*margin-top: 40rem;*/
 }
 
 .pricing-container {
 	/*height: 750px; 850*/
-	margin-top: 10rem;
+	margin-top: 50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	flex-wrap: wrap;
   	/*border: 1px solid red;*/
   }
@@ -369,7 +367,6 @@ button:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 
 .pc-group h2 {
@@ -404,7 +401,7 @@ button:hover {
 	padding: 40px;
 	margin: 50px;
 	width: 500px;
-	height: 700px;
+	height: 800px;
 	flex-wrap: wrap;
 	/*border: 1px solid purple;*/
 }
