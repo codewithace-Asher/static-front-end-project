@@ -934,7 +934,7 @@ input {
 /* Footer Contents   */
 
 footer {
-	max-width: 2300px;
+	/*max-width: 2300px;*/
 	min-height: 200px;
 	background-color: black;
 	height: 200px;
