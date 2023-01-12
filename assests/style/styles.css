@@ -12,9 +12,9 @@ html {
 }
 
 body {
-	/*background-color: #1A3038;*/
+	/*background-color: #1A3038;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column;*/
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -358,6 +358,10 @@ button:hover {
 	justify-content: center;
 	flex-wrap: wrap;
   	/*border: 1px solid red;*/
+	background-image: url("../images/mclass-bkgrnd.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
   }
 
 .pc-group {
@@ -370,10 +374,11 @@ button:hover {
 }
 
 .pc-group h2 {
-	font-weight: bold;
-	font-size: 35px;
+	font-weight: 700;
+	font-size: 45px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
+	color: #1A3038;
 }
 
 .pc-sc {
@@ -382,8 +387,9 @@ button:hover {
 
 .pc-group p {
 	font-family: 'Oswald', sans-serif;
-  	font-size: 35px;
+  	font-size: 40px;
   	text-align: center;
+	color: #1A3038;
 }
 
 .price-cards {
@@ -957,11 +963,12 @@ footer {
 	padding: 40px;
 	margin: 40px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 14px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	letter-spacing: 2px;
-	width: 370px;
+	width: 400px;
+	text-align: center;
 }
 
 .footer-links {
@@ -1020,7 +1027,7 @@ footer {
 	text-align: center;
 	position: relative;
 	top: 60px;
-	left: 450px;
+	left: 180px;
 	color: #7ED957;
 	margin: 50px;
 	padding: 40px;
