@@ -197,8 +197,8 @@ button:hover {
 }
 
 .main-image-intro-c p {
-	font-size: 17px;
-	font-weight: bold;
+	font-size: 18px;
+	font-weight: bolder;
 	text-transform: uppercase;
 }
 
@@ -680,7 +680,8 @@ button:hover {
 /*--------------------------------------------*/
 
 #masterclass {
-	margin-top: 10rem;
+	/*margin-top: 5rem;*/
+	background-color: white;
 }
 
 .mch1-group {
@@ -911,11 +912,14 @@ button:hover {
 /* Data container / Why */
 
 .data-container {
-	margin: 40px;
 	/*border: 1px solid red;*/
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+}
+
+.data-container {
+	background: linear-gradient(to bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
 }
 
 .d-c-group {
@@ -962,9 +966,10 @@ button:hover {
 	text-align: center;
 	margin: 40px;
 	padding: 30px;
-	/*background: linear-gradient(grey, #979797, #494949,#777777);*/
-	box-shadow: 0px 30px 60px -5px #000;
+	background-color: white;
+	box-shadow: 10px 20px #7ED957;
 	border-radius: 10px;
+	border: 1px solid black;
 	/*border: 1px solid red;*/
 }
 
@@ -981,14 +986,18 @@ button:hover {
 
 /* Feedback container / Contact form   */
 
-.feedback-container {
-	/*border: 1px solid red;*/
-	margin: 40px;
-	height: 800px;
+#contact {
+		
 }
 
+.feedback-container {
+    background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+    background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+    background: linear-gradient(to top, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+}
+
+
 .f-b-group {
-	margin: 40px;
 	display: grid;
 	align-items: center;
 }
@@ -1098,7 +1107,7 @@ footer {
 }
 
 .footer-cnts {
-	margin-top: 200px;
+	/*margin-top: 200px;
 	/*border: 1px solid black;*/
 }
 
