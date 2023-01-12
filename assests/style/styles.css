@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Calistoga&family=Oleo+Script&family=Oswald:wght@300&family=Press+Start+2P&family=Rock+Salt&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bakbak+One&family=Bebas+Neue&family=Calistoga&family=Oleo+Script&family=Oswald:wght@300&family=Press+Start+2P&family=Rock+Salt&family=UnifrakturMaguntia&display=swap');
 
 * {
 	padding: 0;
@@ -375,21 +375,21 @@ button:hover {
 
 .pc-group h2 {
 	font-weight: 700;
-	font-size: 45px;
-  	font-family: 'Oswald', sans-serif;
+	font-size: 55px;
+  	font-family: 'Bakbak One', cursive;
   	text-transform: uppercase;
-	color: #1A3038;
+	color: white;
 }
 
 .pc-sc {
-	border-bottom: 4px double #1A3038;
+	border-bottom: 4px double #9FE4A5;
 }
 
 .pc-group p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Bakbak One', cursive;
   	font-size: 40px;
   	text-align: center;
-	color: #1A3038;
+	color: white;
 }
 
 .price-cards {
