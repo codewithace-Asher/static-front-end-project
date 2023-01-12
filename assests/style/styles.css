@@ -101,7 +101,7 @@ button:hover {
 /* Main - main-heading Contents  */
 
 .main-heading {
-	height: 700px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -109,7 +109,7 @@ button:hover {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;*/
-	margin: 40px;
+	/*border: 1px solid red;*/
 }
 
 .main-heading {
@@ -122,10 +122,12 @@ button:hover {
 
 .main-heading h1 {
 	align-content: center;
-  	font-family: 'Bakbak One', cursive;
-  	font-size: clamp(150px, 50px + 8vw,  180px); 
-  	font-weight: bolder;
-	letter-spacing: 5px;
+  	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+  	/*font-size: clamp(150px, 50px + 8vw,  180px);*/
+	font-size: 80px;
+  	font-weight: 1000;
+	/*letter-spacing: 1px;*/
 }
 
 .main-heading p {
@@ -169,10 +171,69 @@ button:hover {
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
+/* Main image intro */
+
+.main-image-intro {
+	height: 700px;
+}
+
+.main-image-intro-b {
+	display: flex;
+	justify-content: center;
+	color: aqua;
+	height: 500px;
+	margin: 40px 0px;
+	background-color: #1A3038;
+}
+
+.main-image-intro-b img {
+	height: 600px;
+	box-shadow: 60px 90px #7ED957;
+}
+
+.main-image-intro-c {
+	display: flex;
+	justify-content: center;
+}
+
+.main-image-intro-c p {
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.mi-c1 {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 20px;
+	border: 10px solid white;
+
+}
+
+.mi-c2 {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 20px;
+	border: 10px solid white;
+}
+
+.mi-c3 {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 20px;
+	border: 10px solid white;
+}
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
 /* Services / services-Contents   */
 
 #about-contents {
-		/*margin-top: 20rem;
+		margin-top: 12rem;
 }
 
 .services-container {
@@ -220,7 +281,9 @@ button:hover {
   	column-gap: 55px;
 	/*border: 1px solid red;*/
 	z-index: -9;
-	background: linear-gradient(to bottom, #FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background: -webkit-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background: -o-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background: linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
   }
 
 .services-block2 {
