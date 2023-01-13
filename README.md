@@ -52,9 +52,15 @@
 
 <h3>4. Social Links</h3>
 
+- Click on all social links to confirm it opens a link on a new tab (currently no real socials just buttons).
+
 <h3>5. EN Market Introduction PDF </h3>
 
+- Go on the 'EN Market Introduction' button and click,and confirm and PDF opens in a seperate browser.
+
 <h3>6. Viewing on a mobile and tablet</h3>
+
+- Please confirm that when you view my site on a mobile or tablet,desktop the site has good spacing, not too much content and is easy to use on all devices. (Currently working on little tweaks).
 
 <h2 align="left">Deployment :</h2>
 "With a focus on simplicity and efficiency, I crafted this static website using nothing but the power of HTML and CSS, utilizing Dreamweaver as my trusty tool of creation. To ensure that my progress was well documented and easily accessible to my team, I made use of GitHub Desktop, committing and pushing my code on a daily basis - a true testament to my dedication to the project."
