@@ -25,12 +25,13 @@
 	
 	- Clear font style --- for paragraphs<br>
 		- Large font --- for main sections<br>
-			-Precise sections related to header for precise information
+		 	- Precise sections related to header for precise information
 	
 - Feature 2
 
 	- Fixed header and footer --- ease of navigation<br>
-		- image and arrow will both send page back to the top via click<br>
+		- image and arrow will both send page back to the top via click (footer)<br>
+			
 		
 
 - Feature 3
