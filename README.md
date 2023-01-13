@@ -28,13 +28,13 @@
 <h2 align="center">Testing :</h2>
 <h3> 1. Header </h3>
 
-- Does each button link to the correct place on the HTML doc?<br>
+- Does each button link to the correct place on the HTML doc?
 
-- Do all the button ref to the correct page or section in the HTML doc?<br>
+- Do all the button ref to the correct page or section in the HTML doc?
 
-- Does the "Login" button, take you to the 'Login' page?<br>
+- Does the "Login" button, take you to the 'Login' page?
 
-- Does the "Register" button, take you to the 'Register' page?<br>
+- Does the "Register" button, take you to the 'Register' page?
 
 <h3>2. Homepage external hyperlinks on images</h3>
 
@@ -60,15 +60,22 @@
 
 <h2 align="center">Credit to :</h2>
 <p align="center">
- - Code+ Learning People Global (https://learningpeopleapac.percipio.com/)<br>
- - Kevin Powel (https://courses.kevinpowell.co/conquering-responsive-layouts)<br>
- - Front-End Simplified (https://frontendsimplified.com/)<br>
- - Developer.mozilla (https://developer.mozilla.org/en-US/docs/Web)<br>
+	
+ - Code+ Learning People Global (https://learningpeopleapac.percipio.com/)
+ 
+ - Kevin Powel (https://courses.kevinpowell.co/conquering-responsive-layouts)
+ 
+ - Front-End Simplified (https://frontendsimplified.com/)
+ 
+ - Developer.mozilla (https://developer.mozilla.org/en-US/docs/Web)
+ 
 </p> 
 <h2 align="center">Acknowledgements :</h2>
 <h3 align="center">Content and Media :</h3>
 <p align="center">
-- All images that were used were licensed by Creative Cloud Adobe.(https://stock.adobe.com/)<br>
+	
+- All images that were used were licensed by Creative Cloud Adobe.(https://stock.adobe.com/)
+
 - Canva.com (https://www.canva.com/)
 
 <h3 align="center">Personal Acknowledgment :</h3>
