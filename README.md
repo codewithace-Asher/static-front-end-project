@@ -29,15 +29,15 @@
 <h3> 1. Header </h3>
 - "With a keen eye for detail and a commitment to providing the best user experience possible, I put my header/navigation bar through a series of rigorous tests using HTML. The results were nothing short of impressive - every button and link responded exactly as it should, smoothly guiding users through the site with ease. It was a true pleasure to see all my hard work come together in such a seamless and polished manner."
 
-2. Homepage external hyperlinks on images
+<h3>2. Homepage external hyperlinks on images</h3>
 
-3. Contact Form
+<h3>3. Contact Form</h3>
 
-4. Social Links
+<h3>4. Social Links</h3>
 
-5. EN Market Introduction PDF 
+<h3>5. EN Market Introduction PDF </h3>
 
-6. Viewing on a mobile and tablet
+<h3>6. Viewing on a mobile and tablet</h3>
 
 <h2 align="left">Deployment :</h2>
 "With a focus on simplicity and efficiency, I crafted this static website using nothing but the power of HTML and CSS, utilizing Dreamweaver as my trusty tool of creation. To ensure that my progress was well documented and easily accessible to my team, I made use of GitHub Desktop, committing and pushing my code on a daily basis - a true testament to my dedication to the project."
