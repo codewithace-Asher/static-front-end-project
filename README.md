@@ -50,9 +50,10 @@
  - Developer.mozilla (https://developer.mozilla.org/en-US/docs/Web)<br>
 </p> 
 <h2 align="center">Acknowledgements :</h2>
-<h3 align="center">Content :</h3>
+<h3 align="center">Content and Media :</h3>
 <p align="center">
-- https://stock.adobe.com/ ( all background and illustrations)<br>
+- https://stock.adobe.com/ ( all background and illustrations)
+	All images that were used were licensed by Creative Cloud Adobe.<br>
 - canva.com ( custom logos)
 -
 <p/>
