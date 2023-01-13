@@ -35,7 +35,15 @@
 <h3>2. Homepage external hyperlinks on images</h3>
 
 <h3>3. Contact Form</h3>
+- Please fill out the form correctly except do not enter your First Name. Try to Submit, and verify there is an error message.
 
+- Please fill out the form correctly except do not enter your Last Name. Try to Submit, and verify there is an error message.
+
+- Please fill out the form correctly except do not enter your phone number. Try to Submit, and verify there is an error message.
+
+- Please fill out the form correctly except do not enter your address. Try to Submit, and verify there is an error message.
+
+- Please fill out the form correctly except do not enter your email address, or enter an invalid email address. Try to Submit, and verify there is an error message.
 <h3>4. Social Links</h3>
 
 <h3>5. EN Market Introduction PDF </h3>
