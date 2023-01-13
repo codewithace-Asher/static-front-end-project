@@ -839,6 +839,13 @@ button:hover {
 	background: linear-gradient(to bottom, #7ED957, #7ED957 25%, #6B6B6B 25%, #6B6B6B 100%);
 }
 
+.team-block:hover {
+	transition-delay: 0.7s;
+	transform: scale(1.2);
+	cursor: pointer;
+	z-index: 9;
+}
+
 .mentor-1 {
 	height: 200px;
 }
