@@ -25,7 +25,7 @@
 	
 	- Clear font style --- for paragraphs
 
-	– Large font --- for main sections
+		– Large font --- for main sections
 	
 - Feature 2
 
