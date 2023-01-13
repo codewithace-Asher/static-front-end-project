@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bakbak+One&family=Bebas+Neue&family=Calistoga&family=Oleo+Script&family=Oswald:wght@300&family=Press+Start+2P&family=Rock+Salt&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antic&family=Bakbak+One&family=Bebas+Neue&family=Calistoga&family=Oleo+Script&family=Oswald:wght@300&family=Press+Start+2P&family=Roboto&family=Rock+Salt&family=UnifrakturMaguntia&display=swap');
 
 * {
 	padding: 0;
@@ -89,8 +89,8 @@ button {
 
 button:hover {
 	cursor: pointer;
-	background-color:lawngreen;
-	color: black;
+	background-color:#1A3038;
+	color: white;
 	transition-delay: 0.5s;
 	transform: scale(1.2);
 }
@@ -149,14 +149,13 @@ button:hover {
 	font-weight: bold;
 	color: white;
 	background-color: #7ED957;
-	border: 1px solid #7ED957;
 	
 }
 
 .main-heading button:hover {
 	cursor: pointer;
-	background-color:lawngreen;
-	color: black;
+	background-color:#1A3038;
+	color: white;
 	transition-delay: 0.5s;
 	transform: scale(1.2);
 }
@@ -250,27 +249,44 @@ button:hover {
   flex-direction: column;
 }
 
+.sc-group {
+	background: -webkit-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background: -o-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background: linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+}
+
 .sc-group h2 {
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 45px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 }
 
-.sc-grouph2 {
-	border-bottom: 4px double #1A3038; 
-}
-
 .sc-group p {
+	font-weight: 450;
 	font-size: 20px;
 	width: 400px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 
-/*--------------------------------------------*/
-/*--------------------------------------------*/
+.more-btn {
+	background-color: white;
+	color: #7ED957;
+	border: 1px solid #1A3038;
+}
 
+.more-btn:hover {
+	cursor: pointer;
+	background-color:#1A3038;
+	color: white;
+	transition-delay: 0.5s;
+	transform: scale(1.2);
+	border: 1px solid white;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
 
 .services-block {
 	flex-wrap: wrap;
@@ -281,9 +297,7 @@ button:hover {
   	column-gap: 55px;
 	/*border: 1px solid red;*/
 	z-index: -9;
-	background: -webkit-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
-	background: -o-linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
-	background: linear-gradient(#FFFFFF, #FFFFFF 0%, #7ED957 100%, #7ED957 100%);
+	background-color: #7ED957;
   }
 
 .services-block2 {
@@ -342,21 +356,21 @@ button:hover {
 }
 
 .services-block p {
- 	font-family: 'Oswald', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
  	font-size: 22px;
 	text-align: center;
 	z-index: 5;
 }
 
 .services-block2 p {
- 	font-family: 'Oswald', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
  	font-size: 22px;
 	text-align: center;
 	z-index: 5;
 }
 
 .services-block3 p {
- 	font-family: 'Oswald', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
  	font-size: 22px;
 	text-align: center;
 	z-index: 5;
@@ -490,22 +504,19 @@ button:hover {
 
 /* Services / Pricing */
 
-#services {
-	/*margin-top: 40rem;*/
-}
-
 .pricing-container {
 	/*height: 750px; 850*/
-	margin-top: 40rem;
+	margin-top: 50rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
   	/*border: 1px solid red;*/
-	background-image: url("../images/mclass-bkgrnd.jpg");
+	background-image: url("../images/mclass-bkgrnd2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	z-index: -9;
   }
 
 .pc-group {
@@ -518,22 +529,19 @@ button:hover {
 }
 
 .pc-group h2 {
-	font-weight: 700;
-	font-size: 55px;
-  	font-family: 'Bakbak One', cursive;
+	font-size: 45px;
+  	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
-	color: white;
-}
-
-.pc-sc {
-	border-bottom: 4px double #9FE4A5;
+	color: black;
+	z-index: 5;
 }
 
 .pc-group p {
-	font-family: 'Bakbak One', cursive;
-  	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+  	font-size: 30px;
   	text-align: center;
-	color: white;
+	color: black;
+	z-index: 5;
 }
 
 .price-cards {
@@ -582,6 +590,7 @@ button:hover {
 }
 
 .trading-mc p {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-size: 18px;
 }
@@ -616,6 +625,7 @@ button:hover {
 }
 
 .mindset-mc p {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-size: 18px;
 }
@@ -650,6 +660,7 @@ button:hover {
 }
 
 .candle-mc p {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-size: 18px;
 }
@@ -689,24 +700,22 @@ button:hover {
 	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-	/*border: 1px solid black;*/
-	margin: 40px;
 }
 
+/*.mch1-group {
+	background: linear-gradient(to top, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+}*/
+
 .mch1-group h2 {
-	font-weight: bold;
-	font-size: 35px;
+	font-weight: bolder;
+	font-size: 45px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 }
 
-.mch1-grouph2 {
-	border-bottom: 4px double #1A3038;
-}
-
 .mch1-group p {
 	font-size: 20px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 
@@ -740,8 +749,8 @@ button:hover {
 }
 
 .h-p-group p {
-	font-size: 18px;
-	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 
@@ -750,40 +759,46 @@ button:hover {
 	margin: 40px;
 	display: flex;
 	justify-content:center;
-	width: 300px;
-	height: 300px;
+	width: 450px;
+	height: 450px;
 	padding: 10px 50px 20px;
 }
 
 .team-block-container {
-	/*border: 1px solid red;*/
-	margin: 40px;
+	
 }
 
 .team-block-contents {
-	/*border: 1px solid purple;*/
-	margin: 40px;
+
 }
 
 .t-b-group {
 	flex-wrap: wrap;
 	display: flex;
-	flex-direction: column;
-	align-content: center;
-	/*border: 1px solid green;*/
+	flex-direction: row;
+	justify-content: space-around;
 }
+
+.t-b-group {
+	background: linear-gradient(to right, #7ED957, #7ED957 50%, #1A3038 50%, #1A3038 100%);
+	max-height:100px;
+	z-index: -9;
+}
+
+.t-b-group {
+	box-shadow: 0px 40px #E5E5E5;
+}
+
 
 .t-b-group h2 {
-	font-weight: bold;
-	font-size: 35px;
+	font-weight: bolder;
+	font-size: 45px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
-	/*border-bottom: 3px double #9FE4A5;*/
-	text-align: center;
-}
-
-.t-b-grouph2 {
-	border-bottom: 4px double #1A3038;
+	text-align:end;
+	z-index: 5;
+	padding: 10px;
+	color: white;
 }
 
 .t-b-group p {
@@ -791,30 +806,59 @@ button:hover {
 	margin: 20px;
 	padding: 20px;
 	font-size: 18px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	background-color: white;
+	z-index: 5;
+}
+
+.tbg1 {
+	border: 2px solid #7ED957;
+}
+
+.tbg2 {
+	border: 2px solid #1A3038;
 }
 
 .team-mentors {
-	margin: 40px;
+	margin-top: 8rem;
 	display: flex ;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.team-block {
-	margin: 40px;
-	width: 600px;
+.team-block .pro {
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	margin:10px;
 }
 
-.team-block img {
-	align-content: center;
+.team-block .img-1 {
+	display: flex;
+	justify-content: center;
+}
 
+.team-block {
+	padding: 20px;
+	margin: 40px;
+	width:380px;
+	height: 700px;
+}
+
+.team-block {
+	background: linear-gradient(to bottom, #7ED957, #7ED957 25%, #6B6B6B 25%, #6B6B6B 100%);
 }
 
 .mentor-1 {
-	margin: 0px 180px;
+	height: 200px;
+}
+
+.mentor-2 {
+	height: 180px;
 }
 
 
@@ -824,22 +868,26 @@ button:hover {
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	text-align: center;
+	color: white;
 }
 
-.team-blockh2 {
-	border-bottom: 4px double #1A3038;
+.team-blockh2 span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #2980b9
 }
-
-/*.fx-5 {
-	border-bottom: 2px solid #1A3038;
-}*/
 
 .team-block h5 {
 	ont-weight: bold;
 	font-size: 20px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
-	text-align: center;
+	text-align: start;
+}
+
+.team-block p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
 }
 
 .team-block ul {
@@ -931,19 +979,25 @@ button:hover {
   	flex-direction: column;
 }
 
+.d-c-group {
+	background-image: url("../images/vector-light2.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .d-c-group h2 {
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 45px;
   	font-family: 'Oswald', sans-serif;
   	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 4px double #1A3038;
 }
 	
 .d-c-group p {
 	width: 500px;
 	font-size: 20px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: 40px;
 	padding: 10px;
@@ -962,7 +1016,7 @@ button:hover {
 .customer-quote {
 	font-size: 20px;
 	font-weight: bold;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: 40px;
 	padding: 30px;
