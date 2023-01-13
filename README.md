@@ -21,7 +21,7 @@
 
 ---
 
-<img src="assests/images/header.png">
+<img src="assests/images/portfolio.png">
 
 <h2 align="center">Features :</h2>
 
