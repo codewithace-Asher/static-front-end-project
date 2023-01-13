@@ -24,8 +24,8 @@
 - Feature 1
 	
 	- Clear font style --- for paragraphs
-
 		– Large font --- for main sections
+			- Precise sections related to header for precise information
 	
 - Feature 2
 
