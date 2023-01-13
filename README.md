@@ -47,6 +47,7 @@
  - Code+ Learning People Global (https://learningpeopleapac.percipio.com/)<br>
  - Kevin Powel (https://courses.kevinpowell.co/conquering-responsive-layouts)<br>
  - Front-End Simplified (https://frontendsimplified.com/)<br>
+ - Developer.mozilla (https://developer.mozilla.org/en-US/docs/Web)<br>
 </p> 
 <h2 align="center">Acknowledgements :</h2>
 <h3 align="center">Content :</h3>
