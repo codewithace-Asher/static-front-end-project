@@ -33,8 +33,10 @@
 		- image and arrow will both send page back to the top via click (footer)<br>
 			
 		
-
 - Feature 3
+
+	- Transform scale has allowed zoom in on certain parts of the HTML for a zoom in effect<br>
+		- This will alow mainly desktop users to zoom in on contents with ease of viewing.
 
 - Feature 4
 
