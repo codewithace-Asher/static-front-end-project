@@ -23,9 +23,9 @@
 
 - Feature 1
 	
-	
-	- Clear font style --- for paragraphs
-	– Large font --- for main sections
+- Clear font style --- for paragraphs
+
+– Large font --- for main sections
 	
 - Feature 2
 
