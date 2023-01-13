@@ -39,6 +39,7 @@
 6. Viewing on a mobile and tablet
 
 <h2 align="left">Deployment :</h2>
+"With a focus on simplicity and efficiency, I crafted this static website using nothing but the power of HTML and CSS, utilizing Dreamweaver as my trusty tool of creation. To ensure that my progress was well documented and easily accessible to my team, I made use of GitHub Desktop, committing and pushing my code on a daily basis - a true testament to my dedication to the project."
 
 <h2 align="center">Credit to :</h2>
 <p align="center">
