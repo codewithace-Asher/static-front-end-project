@@ -44,6 +44,7 @@
 
 <h2 align="center">Credit to :</h2>
 <p align="center">
+ - Code+ Learning People Global (https://learningpeopleapac.percipio.com/) 
  - Kevin Powel<br>
  - Front-End Simplified	
 </p> 
@@ -64,5 +65,4 @@
 <a href="https://www.linkedin.com/in/codewithace-asher/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/codewithace-asher/" height="30" width="40" /></a>
 </p>
 
----
 ---
