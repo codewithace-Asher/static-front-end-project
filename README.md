@@ -54,7 +54,9 @@
 <p align="center">
 - All images that were used were licensed by Creative Cloud Adobe.(https://stock.adobe.com/)<br>
 - Canva.com (https://www.canva.com/)
--
+
+<h3 align="center">Personal Acknowledgment :</h3>
+"As I sit back and admire the completed website before me, I am filled with a sense of accomplishment and pride. Being my first ever attempt at writing code, this website represents a significant milestone for me. I am humbled by the journey and enjoying every moment of it. I relied on my education and resources such as Code + Learning People Global and YouTube videos and tutorials to guide me along the way. But what truly brought this website to life was my own creativity, patience, and dedication to the project. With each obstacle I encountered, I reminded myself that practice makes perfect and pushed through to achieve my goal. This website is a true testament to the power of self-motivation, perseverance and the ability to learn new things, and a shining example of what can be achieved through self-education, hard work and the use of platforms like Code + Learning People Global."
 <p/>
 
 
