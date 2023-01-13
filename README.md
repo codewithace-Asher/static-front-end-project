@@ -23,8 +23,8 @@
 
 - Feature 1
 	
-	- Clear font style --- for paragraphs
-		– Large font --- for main sections
+	- Clear font style --- for paragraphs<br>
+		– Large font --- for main sections<br>
 			- Precise sections related to header for precise information
 	
 - Feature 2
