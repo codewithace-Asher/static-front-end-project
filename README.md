@@ -38,6 +38,7 @@
 
 6. Viewing on a mobile and tablet
 
+<h2 align="left">Deployment :</h2>
 
 <h2 align="center">Credit to :</h2>
 <p align="center">
