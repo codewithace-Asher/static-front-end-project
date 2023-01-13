@@ -22,9 +22,10 @@
 <h2 align="center">Features :</h2>
 
 - Feature 1
-	– Large font --- for main sections
+	
 	
 	- Clear font style --- for paragraphs
+	– Large font --- for main sections
 	
 - Feature 2
 
