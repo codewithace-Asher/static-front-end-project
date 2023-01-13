@@ -44,9 +44,9 @@
 
 <h2 align="center">Credit to :</h2>
 <p align="center">
- - Code+ Learning People Global (https://learningpeopleapac.percipio.com/) 
- - Kevin Powel<br>
- - Front-End Simplified	
+ - Code+ Learning People Global (https://learningpeopleapac.percipio.com/)<br>
+ - Kevin Powel (https://courses.kevinpowell.co/conquering-responsive-layouts)<br>
+ - Front-End Simplified (https://frontendsimplified.com/)<br>
 </p> 
 <h2 align="center">Acknowledgements :</h2>
 <h3 align="center">Content :</h3>
