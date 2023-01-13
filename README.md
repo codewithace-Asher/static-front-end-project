@@ -17,8 +17,11 @@
 - Informative<br>
 - Focus on Ease of Use<br>
 - Functionality<br>
-
 </p>
+
+---
+
+<img src="assests/images/header.png">
 
 <h2 align="center">Features :</h2>
 
