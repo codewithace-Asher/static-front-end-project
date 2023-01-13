@@ -1,4 +1,5 @@
 <h1 align="center">First Project - Static Front End Project #1</h1>
+<h1 align="center">Vector Trade School - Education</h1>
 <h3 align="center"> First Website Project with Code+<br> (Learning People Global) </h3>
 
 <p align="center"> <a href="https://twitter.com/asher_dev_" target="blank"><img src="https://img.shields.io/twitter/follow/asher_dev_?logo=twitter&style=for-the-badge" alt="asher_dev_" /></a> </p>
