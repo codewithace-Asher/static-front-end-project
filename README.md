@@ -38,6 +38,10 @@
 
 <h3>2. Homepage external hyperlinks on images</h3>
 
+- When clicking on the 'EN Market Introduction PDF', does it open up a new window with the website, directly taking you to the EN Market Introduction PDF?
+
+- When clicking on the 'Up arrow' in the footer, does it scroll back to the page top?
+
 <h3>3. Contact Form</h3>
 
 - Please fill out the form correctly except do not enter your First Name. Try to Submit, and verify there is an error message.
