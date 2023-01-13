@@ -24,10 +24,14 @@
 - Feature 1
 	
 	- Clear font style --- for paragraphs<br>
-		– Large font --- for main sections<br>
-			- Precise sections related to header for precise information
+		- Large font --- for main sections<br>
+			-Precise sections related to header for precise information
 	
 - Feature 2
+
+	- Fixed header and footer --- ease of navigation<br>
+		- image and arrow will both send page back to the top via click<br>
+		
 
 - Feature 3
 
