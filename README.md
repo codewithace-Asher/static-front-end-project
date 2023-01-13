@@ -47,21 +47,16 @@
  - Kevin Powel<br>
  - Front-End Simplified	
 </p> 
-<h2 align="center">Devlopers :</h2>
-<br>
-<br>
-<br>
-<h2 align="center">Content :</h2>
+<h2 align="center">Acknowledgements :</h2>
+<h3 align="center">Content :</h3>
 <p align="center">
 - https://stock.adobe.com/ ( all background and illustrations)<br>
 - canva.com ( custom logos)
 -
 <p/>
 
-<h2 align="center">Acknowledgements :</h2>
-<br>
-<br>
-<br>
+
+
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://codepen.io/_AC3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/_ac3" height="30" width="40" /></a>
