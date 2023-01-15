@@ -42,7 +42,6 @@ header {
 	cursor: pointer;
 	transition-delay: 0.7s;
 	transform: scale(1.5);
-	cursor: pointer;
 }
 
 .nav-links {
@@ -1205,7 +1204,6 @@ footer {
 	cursor: pointer;
 	transition-delay: 0.7s;
 	transform: scale(1.5);
-	cursor: pointer;
 }
 
 .fa-arrow-up {
@@ -1220,7 +1218,6 @@ footer {
 	cursor: pointer;
 	transition-delay: 0.7s;
 	transform: scale(1.5);
-	cursor: pointer;
 }
 
 .copyright {
@@ -1262,7 +1259,7 @@ footer {
 /*--------------------------------------------*/
 	
 /*Media Queries*/
-
+/*
 @media (min-width:2300px > 1500px){
 	header {
 		display: flex;
@@ -1288,3 +1285,4 @@ footer {
 		float:inherit; 
 	}
 }
+*/
