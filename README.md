@@ -25,7 +25,7 @@
 
 --- 
 
-<p align="center"><a href="https://codewithace-asher.github.io/static-front-end-project/">Live Site</a></p>
+<p align="center"><a href="https://codewithace-asher.github.io/static-front-end-project/">---->Live Site<----</a></p>
 	
 ---
 
