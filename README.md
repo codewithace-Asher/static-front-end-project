@@ -99,6 +99,19 @@
 <h2 align="left">Deployment :</h2>
 "With a focus on simplicity and efficiency, I crafted this static website using nothing but the power of HTML and CSS, utilizing Dreamweaver as my trusty tool of creation. To ensure that my progress was well documented and easily accessible to my team, I made use of GitHub Desktop, committing and pushing my code on a daily basis - a true testament to my dedication to the project."
 
+<h2 align="left">Deployment Issues :</h2>
+
+- HTML sections are overlapping when when changing to smaller widths widths.
+
+- Images need to be compatible with width changes. 
+
+- Text will also need to become compatible with changes.
+
+- Header needs to be compacted to a hamburger icon menu.
+
+- Footer needs to be reconfigured with smaller widths.
+
+
 <h2 align="center">Credit to :</h2>
 <p align="center">
 	
