@@ -154,59 +154,40 @@ button:hover {
 /* Main image intro */
 
 .main-image-intro {
-	height: 700px;
+	max-height: 700px;
 }
 
-.main-image-intro-b {
+.contents {
 	display: flex;
 	justify-content: center;
-	color: aqua;
-	height: 500px;
+	max-height: 500px;
 	margin: 40px 0px;
 	background-color: #1A3038;
 }
 
-.main-image-intro-b img {
+.contents img {
 	height: 600px;
 	box-shadow: 60px 90px #7ED957;
 }
 
-.main-image-intro-c {
+.contents-overlay {
 	display: flex;
 	justify-content: center;
 }
 
-.main-image-intro-c p {
+.contents-overlay p {
 	font-size: 18px;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
 
-
-.mi-c1 {
-	height: 200px;
-	width: 200px;
+.layout {
+	max-height: 200px;
+	max-width: 200px;
 	border-radius: 50%;
 	margin: 20px;
 	border: 10px solid white;
 
-}
-
-.mi-c2 {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	margin: 20px;
-	border: 10px solid white;
-}
-
-.mi-c3 {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	margin: 20px;
-	border: 10px solid white;
-}
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
