@@ -96,18 +96,7 @@ button:hover {
 /* Main - main-heading Contents  */
 
 .main-heading {
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	/*background-image: url("../images/background-1.jpeg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;*/
-	/*border: 1px solid red;*/
-}
-
-.main-heading {
+	max-height: 400px;
 	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
@@ -156,11 +145,7 @@ button:hover {
 	transform: scale(1.2);
 }
 
-.span1 {
-	color: #1A3038;
-}
-
-.span2 {
+.lime-green {
 	color: #7ED957;
 }	
 /*--------------------------------------------*/
