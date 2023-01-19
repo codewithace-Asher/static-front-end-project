@@ -14,23 +14,99 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+p {
+	font-size: 18px;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/* Reusables /*
+
+/* Button Classes */
+
+.green-grey {
+	margin-left: 20px;
+	height: 50px;
+	width: 200px;
+	border-radius: 50px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	background-color: #7ED957;
+	border: 1px solid #7ED957;
+	font-family: 'Oswald', sans-serif;
+}
+
+.green-grey:hover {
+	cursor: pointer;
+	background-color:#1A3038;
+	color: white;
+	transition-delay: 0.5s;
+	transform: scale(1.2);
+}
+
+.grey-green {
+	margin-left: 20px;
+	height: 50px;
+	width: 200px;
+	border-radius: 50px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	background-color: #1A3038;
+	border: 1px solid #1A3038;
+	font-family: 'Oswald', sans-serif;
+}
+
+.grey-green:hover {
+	cursor: pointer;
+	background-color:#7ED957;
+	color: white;
+	transition-delay: 0.5s;
+	transform: scale(1.2);
+}
+
+/* Headings - p - a - */
+
+
+.bold {
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.statement {
+	align-content: center;
+	text-transform: uppercase;
+	font-size: 80px;
+  	font-weight: 1000;
+}
+
+
+/* Colors */
+
+.lime-green {
+	color: #7ED957;
+}	
+
+/* Box Shadows */
+
+.lime-green-shadow {
+	box-shadow: 60px 90px #7ED957;
+}
+
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* Section - Header Contents */
 
 header { 
-	/*min-height: 300px;*/
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: center;
 	padding: 30px 10%;
 	background-color: black;
-	border: 4px solid #7ED957;
-	/*margin: 40px;*/
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border: 1px solid #7ED957;
 }
 
 #header-logo {
@@ -68,128 +144,46 @@ header {
 	
 }
 
-button {
-	margin-left: 20px;
-	height: 50px;
-	width: 200px;
-	border-radius: 50px;
-	font-size: 18px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	color: white;
-	background-color: #7ED957;
-	border: 1px solid #7ED957;
-}
-
-button:hover {
-	cursor: pointer;
-	background-color:#1A3038;
-	color: white;
-	transition-delay: 0.5s;
-	transform: scale(1.2);
-}
-/*--------------------------------------------*/
 /*--------------------------------------------*/
 
-
-/* Main - main-heading Contents  */
 
 .main-heading {
+	margin-top: 2rem;
 	max-height: 400px;
-	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.main-heading h1 {
-	align-content: center;
-  	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-  	/*font-size: clamp(150px, 50px + 8vw,  180px);*/
-	font-size: 80px;
-  	font-weight: 1000;
-	/*letter-spacing: 1px;*/
-}
-
-.main-heading p {
-	color: #2980b9;
-  	font-family: 'Oswald', sans-serif;
-  	font-size: 35px;
-  	font-weight: bold;
-  	text-align: center;
-	text-transform: uppercase;
-}
-
-.main-heading button {
-	margin-top: 80px;
-	height: 60px;
-	width: 200px;
-	border-radius: 50px;
-	font-size: 17px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	color: white;
-	background-color: #7ED957;
-	
-}
-
-.main-heading button:hover {
-	cursor: pointer;
-	background-color:#1A3038;
-	color: white;
-	transition-delay: 0.5s;
-	transform: scale(1.2);
-}
-
-.lime-green {
-	color: #7ED957;
-}	
-/*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* Main image intro */
-
-.main-image-intro {
+.main-image {
 	max-height: 700px;
 }
 
 .contents {
 	display: flex;
 	justify-content: center;
-	max-height: 500px;
 	margin: 40px 0px;
 	background-color: #1A3038;
 }
 
-.contents img {
-	height: 600px;
-	box-shadow: 60px 90px #7ED957;
-}
 
 .contents-overlay {
 	display: flex;
 	justify-content: center;
 }
 
-.contents-overlay p {
-	font-size: 18px;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
-
 .layout {
-	max-height: 200px;
-	max-width: 200px;
 	border-radius: 50%;
-	margin: 20px;
 	border: 10px solid white;
 
 /*--------------------------------------------*/
 /*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
 
 /* Services / services-Contents   */
 
