@@ -35,6 +35,10 @@
 		height: auto;
 	}
 	
+	.contents-block {
+		margin-top: 10rem;
+	}
+	
 	.contents {
 		padding: 20px;
 	}
@@ -59,7 +63,9 @@
 		height: auto;
 	}
 	
+
 }
+
 
 
 
@@ -109,6 +115,20 @@
 	.contents-block img {
 		max-width: 100%;
 		height: auto;
+	}
+	
+	.contents-block {
+		margin-top: 25rem;
+	}
+	
+	.midpoint {
+		text-align: center;
+	}
+	
+	.banner {
+		max-height: auto;
+		width: auto;
+		
 	}
 	
 	.contents {
