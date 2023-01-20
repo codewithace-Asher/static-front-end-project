@@ -112,6 +112,11 @@ li { list-style: none; }
   	text-transform: uppercase;
 }
 
+.bold-caps {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
 
 .statement {
 	align-content: center;
@@ -126,6 +131,21 @@ li { list-style: none; }
 	width: 400px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
+}
+
+.clear {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px double #9FE4A5;
+	z-index: 5;
+	font-size: 20px;
+}
+
+.centre {
+ 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	z-index: 5;
 }
 
 /* Colors */
@@ -270,19 +290,6 @@ header {
 	background-color: #7ED957;
   }
 
-.clear {
-	text-align: center;
-	text-transform: uppercase;
-	border-bottom: 3px double #9FE4A5;
-	z-index: 5;
-}
-
-.centre {
- 	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	z-index: 5;
-}
-
 .box {
 	padding: 40px;
 	margin: 40px;
@@ -320,143 +327,49 @@ header {
 }
 
 /*--------------------------------------------*/
-/*--------------------------------------------*/
 
-/* Services / Pricing */
+/* # Services / Pricing */
 
-.pricing-container {
-	/*height: 750px; 850*/
-	margin-top: 50rem;
+.services {
+	margin-top: 660px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	flex-wrap: wrap;
-  	/*border: 1px solid red;*/
 	background-image: url("../images/mclass-bkgrnd2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	z-index: -9;
   }
 
-.pc-group {
-	margin: 40px;
-	/*border: 1px solid black;*/
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.pc-group h2 {
-	font-size: 45px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	color: black;
-	z-index: 5;
-}
-
-.pc-group p {
-	font-family: 'Oswald', sans-serif;
-  	font-size: 30px;
-  	text-align: center;
-	color: black;
-	z-index: 5;
-}
-
-.price-cards {
+.cards {
 	margin: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
-	/*border: 1px solid green;*/
 }
 
-.trading-mc,
-.mindset-mc,
-.candle-mc {
+.context {
 	padding: 40px;
 	margin: 50px;
-	width: 500px;
-	height: 800px;
-	flex-wrap: wrap;
-	/*border: 1px solid purple;*/
+	max-width: 500px;
+	min-height: 800px;
 }
 
-.trading-mc {
-	background-color: white;
+.trading {	
 	background-image: url("../images/mindset.png");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-	border-radius: 10px;
-	box-shadow: 0px 30px 60px -5px #000;
 }
 
-.trading-mc:hover {
-	transition-delay: 0.7s;
-	transform: scale(1.2);
-	cursor: pointer;
-}
-
-.trading-mc h3 {
-	font-weight: bold;
-	font-size: 35px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	text-align: center;
-	border-bottom: 3px double #9FE4A5;
-}
-
-.trading-mc p {
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	font-size: 18px;
-}
-
-.trading-mc strong {
-	font-size: 30px;
-}
-
-.mindset-mc {
-	background-color: white;
+.mindset {
 	background-image: url("../images/mastery.png");
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-	border-radius: 10px;
-	box-shadow: 0px 30px 60px -5px #000;
 }
 
-.mindset-mc:hover {
-	transition-delay: 0.7s;
-	transform: scale(1.2);
-	cursor: pointer;
-}
-
-.mindset-mc h3{
-	font-weight: bold;
-	font-size: 35px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	text-align: center;
-	border-bottom: 3px double #9FE4A5;
-}
-
-.mindset-mc p {
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	font-size: 18px;
-}
-
-.mindset-mc strong {
-	font-size: 30px;
-}
-
-.candle-mc {
-	background-color: white;
+.candle {
 	background-image: url("../images/candle-1.png");
+}
+
+.overlay {
+	background-color: white;
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -464,115 +377,44 @@ header {
 	box-shadow: 0px 30px 60px -5px #000;
 }
 
-.candle-mc:hover {
+.candle:hover, .mindset:hover, .trading:hover {
 	transition-delay: 0.7s;
 	transform: scale(1.2);
 	cursor: pointer;
 }
 
-.candle-mc h3 {
-	font-weight: bold;
-	font-size: 35px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	text-align: center;
+.lime-under {
 	border-bottom: 3px double #9FE4A5;
 }
 
-.candle-mc p {
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	font-size: 18px;
-}
-
-.candle-mc strong {
+strong {
 	font-size: 30px;
 }
 
-.pc-button {
-	margin-left: 120px;
-}
 
-.candle-download {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 40px;
-	/*border: 1px solid black;*/
-}
-
-.candle-download button {
-	width: 250px;
-	height: 50px;
-}
-
-
-/*--------------------------------------------*/
-/*--------------------------------------------*/
+/* # Masterclass */
 
 #masterclass {
-	/*margin-top: 5rem;*/
+	margin-top: 6rem;
 	background-color: white;
 }
 
-.mch1-group {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-
-
-.mch1-group h2 {
-	font-weight: bolder;
-	font-size: 45px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-}
-
-.mch1-group p {
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
-
-.data-container-mc {
-	/*border: 1px solid black;*/
+.data {
 	margin: 40px;
 	flex-wrap: wrap;
-}
-
-.data-container-mc {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.h-p-group {
+.split {
 	padding: 10px 50px 20px;
 	margin: 40px;
-	width: 500px;
-	height: 300px;
-	/*border: 1px solid purple;*/
+	max-width: 500px;
+	min-height: 300px;
 }
 
-.h-p-group h2 {
-	font-weight: bold;
-	font-size: 35px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	border-bottom: 3px double #9FE4A5;
-	text-align: center;
-}
-
-.h-p-group p {
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
-
-.h-p-image {
-	/*border: 1px solid blue;*/
+.align {
 	margin: 40px;
 	display: flex;
 	justify-content:center;
@@ -580,6 +422,8 @@ header {
 	height: 450px;
 	padding: 10px 50px 20px;
 }
+
+/*--------------------------------------------*/
 
 .t-b-group {
 	flex-wrap: wrap;
