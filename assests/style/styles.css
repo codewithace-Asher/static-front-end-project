@@ -167,6 +167,14 @@ li { list-style: none; }
 	box-shadow: 60px 90px #7ED957;
 }
 
+.blue-shadow {
+	box-shadow: 1px 1px 0px 5px #2AAAE1;
+}
+
+.purple-shadow {
+	box-shadow: 1px 1px 0px 5px #020344;
+}
+
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
