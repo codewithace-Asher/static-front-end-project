@@ -55,7 +55,7 @@
 	
 	.services {
 		display: block;
-		margin-top: 150rem;
+		margin-top: 210rem;
 	}
 	
 	.context {
@@ -147,7 +147,7 @@
 	
 	.services {
 		display: block;
-		margin-top: 146rem;
+		margin-top: 246rem;
 	}
 	
 	.context {
@@ -159,6 +159,15 @@
 		position: relative;
 		left: 60px;
 	}
+	
+	#values {
+		display: block;
+		
+	}
+	
+	.cover {
+	flex-wrap: wrap;
+}
 	
 }
 

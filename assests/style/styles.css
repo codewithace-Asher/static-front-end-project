@@ -458,53 +458,76 @@ strong {
 
 /*--------------------------------------------*/
 
-.t-b-group {
-	flex-wrap: wrap;
-	display: flex;
+/* Mentors / Team */
+
+.flex-row {
+	display: flex; 
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
+	gap:20px;
 }
 
-.t-b-group {
-	background: linear-gradient(to right, #7ED957, #7ED957 50%, #1A3038 50%, #1A3038 100%);
-	max-height:100px;
-	z-index: -9;
+.flex-col {
+	display: flex ;
+	flex-direction: column;
 }
 
-.t-b-group {
-	box-shadow: 0px 40px #E5E5E5;
-}
-
-
-.t-b-group h2 {
-	font-weight: bolder;
-	font-size: 45px;
-  	font-family: 'Oswald', sans-serif;
-  	text-transform: uppercase;
-	text-align:end;
-	z-index: 5;
-	padding: 10px;
-	color: white;
-}
-
-.t-b-group p {
-	width: 500px;
-	margin: 20px;
+.resize {
 	padding: 20px;
+	height: 400px;
+	
+}
+
+.m-left {
+	margin-left: 40px;
+}
+
+.cover {
+	height: 450px;
+	min-width:700px;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.grad-left {
+	background: -webkit-linear-gradient(right, #9899FB, #9899FB 40%, #FFFFFF 75%, #FFFFFF 75%);
+	background: -o-linear-gradient(right, #9899FB, #9899FB 40%, #FFFFFF 75%, #FFFFFF 75%);
+	background: linear-gradient(to left, #9899FB, #9899FB 40%, #FFFFFF 75%, #FFFFFF 75%);
+}
+
+.grad-right {
+    background: -webkit-linear-gradient(left, #A9DCF2, #A9DCF2 60%, #FFFFFF 85%, #FFFFFF 85%);
+    background: -o-linear-gradient(left, #A9DCF2, #A9DCF2 60%, #FFFFFF 85%, #FFFFFF 85%);
+    background: linear-gradient(to right, #A9DCF2, #A9DCF2 60%, #FFFFFF 85%, #FFFFFF 85%);
+}
+
+.pad-mid {
+	padding: 60px;
+}
+
+.custom-flow {
+	padding: 1px;
 	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
 	background-color: white;
-	z-index: 5;
+	margin: 30px;
+	width: 160px;
+	height: 33px;
+	border-radius: 50px;
+	box-shadow: 0px 5px 5px #1A3038;
 }
 
-.tbg1 {
-	border: 2px solid #7ED957;
+.custom-flow-right {
+	padding: 1px;
+	font-size: 18px;
+	background-color: white;
+	margin: 30px;
+	margin-left:100px;
+	width: 160px;
+	height: 33px;
+	border-radius: 50px;
+	box-shadow: 0px 5px 5px #1A3038;
 }
-
-.tbg2 {
-	border: 2px solid #1A3038;
-}
+/*--------------------------------------------*/
 
 .team-mentors {
 	margin-top: 8rem;
