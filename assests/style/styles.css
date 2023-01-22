@@ -357,9 +357,13 @@ header {
 /* # Banner */
 
 .banner {
-	margin-top: 4rem;
+	margin-top: 2rem;
 	height: 200px;
 	flex-wrap: wrap;
+}
+
+.border-btm-lime {
+	border-bottom: 2px solid #47CC63;
 }
 
 .logos {
@@ -382,7 +386,7 @@ header {
 /*--------------------------------------------*/
 
 .contents-block {
-	margin-top: 2rem;
+	margin-top: 6rem;
 	flex-wrap: wrap;
   	display: flex;
   	justify-content:center;
@@ -427,7 +431,7 @@ header {
 /* # Services / Pricing */
 
 .services {
-	margin-top: 60rem;
+	margin-top: 75rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
