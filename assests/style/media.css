@@ -170,20 +170,10 @@
 	flex-wrap: wrap;
 }
 	
+	#footer {
+		height: auto;
+		display: block;
+	}
+	
+	
 }
-
-/*
-@media screen and (max-width: 351px) {
-	
-		.container img {
-		max-width: 100%;
-		position: absolute;
-		top: 25px;
-		left: 180px;
-	}
-	
-	.contents {
-		padding: 5px;
-	}
-	
-} */

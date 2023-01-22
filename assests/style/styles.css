@@ -197,6 +197,11 @@ li { list-style: none; }
 	justify-content: center;
 }
 
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
 .inline-block {
 	display: inline-block;
 	list-style: none;
@@ -209,7 +214,10 @@ li { list-style: none; }
 	flex-direction: column;
 }
 
-
+.grid {
+	display: grid;
+	grid-template-columns: auto;
+}
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
@@ -219,7 +227,7 @@ header {
 	justify-content: flex-end;
 	align-items: center;
 	padding: 30px 10%;
-	background-color: black;
+	background-color: #717173;
 	border: 1px solid #7ED957;
 }
 
@@ -669,6 +677,7 @@ strong {
 
 .vector-logo-small {
 	height: 100px;
+	
 }
 /*--------------------------------------------*/
 
@@ -753,95 +762,40 @@ input {
 /* Footer Contents   */
 
 footer {
-	height: 200px;
-	background-color: black;
+	max-height: 250px;
+	background-color: #676767;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border: 1px solid #7ED957; 
 }
 
-.footer-links {
-	padding: 40px;
-	margin: 40px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	/*border: 1px solid red;*/
+.resize {
+	height: 60px;
 }
 
-.footer-links h6 {
-	color: white;
-	font-size: 25px;
-	font-family: 'Oswald', sans-serif;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	padding: 10px;
-}
-
-.footer-links li {
-	display: inline-block;
-	list-style: none;
-	margin: 0px 50px;
-}
-
-.footer-logo {
-	padding: 10px;
-	margin: 40px;
-	/*border: 1px solid red;*/
-}
-
-.footer-logo:hover {
-	cursor: pointer;
-	transition-delay: 0.7s;
-	transform: scale(1.5);
-}
-
-.fa-arrow-up {
-	color: #7ED957;
-	font-size: 60px;
-	padding: 30px;
-	margin: 40px;
-	height: 120px;
-}
-
-.fa-arrow-up:hover {
-	cursor: pointer;
-	transition-delay: 0.7s;
-	transform: scale(1.5);
+.space {
+	margin: 0px 20px;
 }
 
 .copyright {
 	text-align: center;
-	position: relative;
-	top: 60px;
-	left: 180px;
 	color: #7ED957;
-	margin: 50px;
-	padding: 40px;
-	width: 1000px;
-	/*border: 1px solid red;*/
 }
 
-.copyright-link {
+.lime-link {
 	color: #7ED957;
 	text-decoration: none;
 }
 
-.twt {
-	height: 60px;
+.position {
+	position: relative;
+	top: -100px;
+	right: 30px;
+
 }
 
-.trv {
-	border-radius: 25%;
-	height: 60px;
-}
-
-.twt:hover {
-	transform: scale(1.5);
-	transition-delay: 0.5s;
-}
-
-.trv:hover {
+.hover:hover {
+	cursor: pointer;
 	transform: scale(1.5);
 	transition-delay: 0.5s;
 }
