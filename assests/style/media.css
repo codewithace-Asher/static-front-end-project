@@ -118,7 +118,8 @@
 	}
 	
 	.contents-block {
-		margin-top: 25rem;
+		margin-top: 20rem;
+		column-gap: 0px;
 	}
 	
 	.midpoint {
@@ -145,9 +146,9 @@
 		height: auto;
 	}
 	
-	.services {
+	#services {
 		display: block;
-		margin-top: 246rem;
+		margin-top: 220rem;
 	}
 	
 	.context {
