@@ -341,7 +341,9 @@ header {
 }
 
 .bkground-grey-fade {
-	background: linear-gradient(to bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+    background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+    background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
+    background: linear-gradient(to top, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
 }
 
 .bkground-black {
@@ -691,12 +693,6 @@ strong {
 	margin-top: 5rem;
 }
 
-.bkground-grey-fade {
-    background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
-    background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
-    background: linear-gradient(to top, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
-}
-
 form {
 	margin: 40px;
 	width: 700px;
@@ -766,7 +762,6 @@ input {
 /* Footer Contents   */
 
 footer {
-	max-height: 250px;
 	background-color: #676767;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -791,12 +786,6 @@ footer {
 	text-decoration: none;
 }
 
-.position {
-	position: relative;
-	top: -100px;
-	right: 30px;
-
-}
 
 .hover:hover {
 	cursor: pointer;
