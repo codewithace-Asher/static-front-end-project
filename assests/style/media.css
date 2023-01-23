@@ -175,5 +175,9 @@
 		display: block;
 	}
 	
-	
+	.contact-card {
+		max-width: 1000px;
+		max-height: auto;
+			
+	}
 }

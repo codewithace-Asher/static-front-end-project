@@ -335,6 +335,10 @@ header {
 	background: linear-gradient(to bottom, #7ED957, #7ED957 25%, #6B6B6B 25%, #6B6B6B 100%);
 }
 
+.bkground-grey-green-left {
+	background: linear-gradient(to left, #BEEBAA, #BEEBAA 45%, #E9E9E9 45%, #E9E9E9 100%);
+}
+
 .bkground-grey-fade {
     background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
     background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF 10%, #6B6B6B 75%, #6B6B6B 100%);
@@ -688,68 +692,41 @@ strong {
 	margin-top: 5rem;
 }
 
-form {
-	margin: 40px;
-	width: 700px;
+.contact-card {
+	width: 1000px;
+	height: 500px;
 	display: flex;
-	flex-direction: column;
-	align-content: center;
-	box-shadow: 0px 30px 60px -5px #000;
-	background: linear-gradient(grey, #979797, #494949,#777777);
+	margin: 5px;
+	padding: 20px;
+	z-index: -9;
 }
 
-
-.contact-form form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 800px;
+.format {
+	position: relative;
+	top: 2rem;
+	right: 15rem;
+	z-index: 9;
+	width: 300px;
 }
 
-.contact-form input {
-	margin: 20px auto;
-	width: 600px;
-	height: 50px;
+.index-1 {
+	z-index: 1;
+
+}
+
+input,
+textarea {
+	background-color: transparent;
+	width: 300px;
+	height: 40px;
+	margin: 10px 0px;
 	border-radius: 50px;
-	text-align: center;
-	font-size: 17px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	color: white;
+	border: 1px solid white;
 }
 
-input {
-	background-color: #AFAFAF;
-}
 
-.contact-form span {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	color: #434343;
-}
-
-.contact-form textarea {
-	margin: 20px auto;
-	width: 600px;
-	height: 300px;
-	text-align:center;
-	border-radius: 50px;
-	background-color: #AFAFAF;
-}
-
-.submit-button {
-	background-color: #7ED957;
-	border: 1px solid #7ED957;
-}
-
-.submit-button:hover {
-	cursor: pointer ;
-	background-color: #7ED957;
-	color: black;
-	transition-delay: 0.5s;
+textarea {
+	height: 120px;
 }
 
 /*--------------------------------------------*/
