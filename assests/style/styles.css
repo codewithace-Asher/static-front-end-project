@@ -152,12 +152,6 @@ li { list-style: none; }
 	font-size: 20px;
 }
 
-.centre {
- 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	text-align: center;
-	z-index: 5;
-}
 
 .mini {
 	font-family: 'Roboto', sans-serif;
@@ -529,7 +523,7 @@ strong {
 
 /* Mentors / Team */
 
-/*
+
 .flex-row {
 	display: flex; 
 	flex-direction: row;
@@ -769,7 +763,7 @@ footer {
 }
 
 .resize {
-	height: 60px;
+	height: 100px;
 }
 
 .space {
