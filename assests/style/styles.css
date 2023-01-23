@@ -212,6 +212,7 @@ li { list-style: none; }
 	display: grid;
 	grid-template-columns: auto;
 }
+
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
@@ -766,6 +767,10 @@ footer {
 	height: 100px;
 }
 
+.resize-mid {
+	height: 300px;
+}
+
 .space {
 	margin: 0px 20px;
 }
@@ -781,9 +786,14 @@ footer {
 }
 
 
+
 .hover:hover {
 	cursor: pointer;
 	transform: scale(1.5);
 	transition-delay: 0.5s;
+}
+
+#corner {
+	margin: 5px;
 }
 /*--------------------------------------------*/
