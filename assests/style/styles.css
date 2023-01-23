@@ -725,8 +725,6 @@ textarea {
 
 footer {
 	background-color: #676767;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
 	border: 1px solid #7ED957; 
 }
 
@@ -734,13 +732,6 @@ footer {
 	height: 100px;
 }
 
-.resize-mid {
-	height: 300px;
-}
-
-.space {
-	margin: 0px 20px;
-}
 
 .copyright {
 	text-align: center;
@@ -751,8 +742,6 @@ footer {
 	color: #7ED957;
 	text-decoration: none;
 }
-
-
 
 .hover:hover {
 	cursor: pointer;
