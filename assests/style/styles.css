@@ -355,14 +355,6 @@ header {
 /*--------------------------------------------*/
 /*--------------------------------------------*/
 
-/* # Banner */
-
-.banner {
-	margin-top: 2rem;
-	height: 200px;
-	flex-wrap: wrap;
-}
-
 .border-btm-lime {
 	border-bottom: 2px solid #47CC63;
 }
@@ -425,14 +417,12 @@ header {
 	cursor: pointer;
 }
 
-
-
 /*--------------------------------------------*/
 
 /* # Services / Pricing */
 
 .services {
-	margin-top: 75rem;
+	margin-top: 90rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -693,8 +683,8 @@ strong {
 }
 
 .contact-card {
-	width: 1000px;
-	height: 500px;
+	max-width: 1000px;
+	max-height: 500px;
 	display: flex;
 	margin: 5px;
 	padding: 20px;

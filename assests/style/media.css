@@ -118,7 +118,7 @@
 	}
 	
 	.contents-block {
-		margin-top: 20rem;
+		margin-top: 5rem;
 		column-gap: 0px;
 	}
 	
@@ -148,7 +148,7 @@
 	
 	#services {
 		display: block;
-		margin-top: 230rem;
+		margin-top: 180rem;
 	}
 	
 	.context {
@@ -176,8 +176,38 @@
 	}
 	
 	.contact-card {
-		max-width: 1000px;
-		max-height: auto;
+		max-width: 100%;
+		height: auto;
+		padding: 10px;
 			
 	}
+	
+	.format {
+		align-content: center;
+	}
+	
+	#contact-image {
+		max-width: 300%;
+		height: auto;
+	}
+	
+	.contact-card {
+		opacity: 80%;
+	}
+	
+	#even {
+		position: relative;
+		top: -5px;
+		left: 160px;
+	}
+	
+	input,
+	textarea {
+	background-color: white;
+	width: 300px;
+	height: 40px;
+	margin: 10px 0px;
+	border-radius: 50px;
+	border: 1px solid black;
+}
 }
